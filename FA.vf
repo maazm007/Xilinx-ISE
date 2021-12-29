@@ -1,0 +1,92 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : FA.vf
+// /___/   /\     Timestamp : 12/29/2021 00:07:34
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family artix7 -verilog E:/Projects/Xilinx/Digital/FA.vf -w E:/Projects/Xilinx/Digital/FA.sch
+//Design Name: FA
+//Device: artix7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module HA_MUSER_FA(A, 
+                   B, 
+                   RESET, 
+                   CARRY, 
+                   SUM);
+
+    input A;
+    input B;
+    input RESET;
+   output CARRY;
+   output SUM;
+   
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_11;
+   wire XLXN_15;
+   
+   XOR2  XLXI_1 (.I0(XLXN_11), 
+                .I1(XLXN_15), 
+                .O(XLXN_2));
+   AND2  XLXI_3 (.I0(XLXN_11), 
+                .I1(XLXN_15), 
+                .O(XLXN_3));
+   AND2  XLXI_4 (.I0(RESET), 
+                .I1(A), 
+                .O(XLXN_15));
+   AND2  XLXI_5 (.I0(RESET), 
+                .I1(B), 
+                .O(XLXN_11));
+   AND2  XLXI_6 (.I0(RESET), 
+                .I1(XLXN_2), 
+                .O(SUM));
+   AND2  XLXI_7 (.I0(RESET), 
+                .I1(XLXN_3), 
+                .O(CARRY));
+endmodule
+`timescale 1ns / 1ps
+
+module FA(A, 
+          B, 
+          Cin, 
+          RESET, 
+          CARRY, 
+          SUM);
+
+    input A;
+    input B;
+    input Cin;
+    input RESET;
+   output CARRY;
+   output SUM;
+   
+   wire XLXN_8;
+   wire XLXN_10;
+   wire XLXN_11;
+   
+   HA_MUSER_FA  XLXI_1 (.A(A), 
+                       .B(B), 
+                       .RESET(RESET), 
+                       .CARRY(XLXN_11), 
+                       .SUM(XLXN_8));
+   HA_MUSER_FA  XLXI_2 (.A(XLXN_8), 
+                       .B(Cin), 
+                       .RESET(RESET), 
+                       .CARRY(XLXN_10), 
+                       .SUM(SUM));
+   OR2  XLXI_3 (.I0(XLXN_11), 
+               .I1(XLXN_10), 
+               .O(CARRY));
+endmodule
