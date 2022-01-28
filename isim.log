@@ -1,5 +1,5 @@
 ISim log file
-Running: E:\Projects\Xilinx\Digital\Eight_2_One_MUX_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/Projects/Xilinx/Digital/Eight_2_One_MUX_isim_beh.wdb 
+Running: E:\Projects\Xilinx\Digital\Master_Slave_posedge_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/Projects/Xilinx/Digital/Master_Slave_posedge_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -11,33 +11,17 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-# isim force add /Eight_2_One_MUX/D0 1 -radix bin
-# isim force add /Eight_2_One_MUX/D0 1 -radix bin
-# isim force add /Eight_2_One_MUX/D1 0 -radix bin
-# isim force add /Eight_2_One_MUX/D1 0 -radix bin
-# isim force add /Eight_2_One_MUX/D2 1 -radix bin
-# isim force add /Eight_2_One_MUX/D2 1 -radix bin
-# isim force add /Eight_2_One_MUX/D3 0 -radix bin
-# isim force add /Eight_2_One_MUX/D3 0 -radix bin
-# isim force add /Eight_2_One_MUX/D4 1 -radix bin
-# isim force add /Eight_2_One_MUX/D4 1 -radix bin
-# isim force add /Eight_2_One_MUX/D5 0 -radix bin
-# isim force add /Eight_2_One_MUX/D5 0 -radix bin
-# isim force add /Eight_2_One_MUX/D6 1 -radix bin
-# isim force add /Eight_2_One_MUX/D6 1 -radix bin
-# isim force add /Eight_2_One_MUX/D7 0 -radix bin
-# isim force add /Eight_2_One_MUX/D7 0 -radix bin
-# isim force add /Eight_2_One_MUX/RESET 1 -radix bin
-# isim force add /Eight_2_One_MUX/RESET 1 -radix bin
-# isim force add /Eight_2_One_MUX/SEL 2 -radix unsigned
-# isim force add /Eight_2_One_MUX/SEL 2 -radix unsigned
+# isim force add /Master_Slave_posedge/PS 0 -radix bin
+# isim force add /Master_Slave_posedge/PS 0 -radix bin
 # run 1.00us
-# isim force add /Eight_2_One_MUX/SEL 0 -radix unsigned
-# isim force add /Eight_2_One_MUX/SEL 0 -radix unsigned
+# isim force add /Master_Slave_posedge/PS 1 -radix bin
+# isim force add /Master_Slave_posedge/PS 1 -radix bin
+# isim force add /Master_Slave_posedge/CLOCK 0 -radix bin -value 1 -radix bin -time 500 ns -repeat 1 us
+# isim force add /Master_Slave_posedge/CLOCK 0 -radix bin -value 1 -radix bin -time 500 ns -repeat 1 us
+# isim force add /Master_Slave_posedge/X 0 -radix bin
+# isim force add /Master_Slave_posedge/Y 0 -radix bin
+# isim force add /Master_Slave_posedge/Y 0 -radix bin
 # run 1.00us
-# isim force add /Eight_2_One_MUX/SEL 6 -radix unsigned
-# isim force add /Eight_2_One_MUX/SEL 6 -radix unsigned
 # run 1.00us
-# isim force add /Eight_2_One_MUX/SEL 3 -radix unsigned
-# isim force add /Eight_2_One_MUX/SEL 3 -radix unsigned
+# run 1.00us
 # run 1.00us

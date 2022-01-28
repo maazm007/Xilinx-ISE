@@ -1,0 +1,29 @@
+Command line:
+   SR_Latch_Syn_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49301
+
+Mon Jan 24 15:00:20 2022
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5149.59 Meg
+
+ Total Signals          : 48
+ Total Nets             : 26
+ Total Signal Drivers   : 14
+ Total Blocks           : 9
+ Total Primitive Blocks : 8
+ Total Processes        : 15
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 106
+Total Line Count : 16
+
+ Total Simulation Time: 0.28125 sec
+
+ Current Memory Usage: 4677.73 Meg
+
+Mon Jan 24 15:02:41 2022
+

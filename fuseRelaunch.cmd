@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/Projects/Xilinx/Digital/Eight_2_One_MUX_isim_beh.exe" -prj "E:/Projects/Xilinx/Digital/Eight_2_One_MUX_beh.prj" "work.Eight_2_One_MUX" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/Projects/Xilinx/Digital/Master_Slave_posedge_isim_beh.exe" -prj "E:/Projects/Xilinx/Digital/Master_Slave_posedge_beh.prj" "work.Master_Slave_posedge" "work.glbl" 

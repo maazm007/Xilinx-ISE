@@ -22,18 +22,10 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Digital.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="Eight_2_One_MUX.vf"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Eight_2_One_MUX_beh.prj"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Eight_2_One_MUX_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Eight_2_One_MUX_isim_beh.wdb"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="FA.vf"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="FA_isim_beh.exe"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="Four_2_One_MUX.vf"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Four_2_One_MUX_isim_beh.exe"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="HA.vf"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="HA_isim_beh.exe"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="Two_2_One_MUX.vf"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Two_2_One_MUX_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="Master_Slave_posedge.vf"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Master_Slave_posedge_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Master_Slave_posedge_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Master_Slave_posedge_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
@@ -42,58 +34,48 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1640686940" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1640686940">
+    <transform xil_pn:end_ts="1643365527" xil_pn:in_ck="5266445219942101" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1643365527">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="not_gate.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1643365527" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4043650859421156100" xil_pn:start_ts="1643365527">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1640686940" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1640686940">
+    <transform xil_pn:end_ts="1643369476" xil_pn:in_ck="-4696345731475807609" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3536808693253361126" xil_pn:start_ts="1643369474">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Master_Slave_posedge.vf"/>
+    </transform>
+    <transform xil_pn:end_ts="1643365529" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-51791861948723711" xil_pn:start_ts="1643365529">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1640797656" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-6892989738619600788" xil_pn:start_ts="1640797656">
+    <transform xil_pn:end_ts="1643369476" xil_pn:in_ck="-948515925952127829" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1643369476">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Master_Slave_posedge.vf"/>
+      <outfile xil_pn:name="not_gate.v"/>
     </transform>
-    <transform xil_pn:end_ts="1640797771" xil_pn:in_ck="7042308176790794297" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5816472898111151498" xil_pn:start_ts="1640797769">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Eight_2_One_MUX.vf"/>
-      <outfile xil_pn:name="FA.vf"/>
-      <outfile xil_pn:name="Four_2_One_MUX.vf"/>
-      <outfile xil_pn:name="HA.vf"/>
-      <outfile xil_pn:name="Two_2_One_MUX.vf"/>
-    </transform>
-    <transform xil_pn:end_ts="1640784554" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="661343783382775700" xil_pn:start_ts="1640784554">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1640797771" xil_pn:in_ck="5182900724876604618" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1640797771">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Eight_2_One_MUX.vf"/>
-      <outfile xil_pn:name="FA.vf"/>
-      <outfile xil_pn:name="Four_2_One_MUX.vf"/>
-      <outfile xil_pn:name="HA.vf"/>
-      <outfile xil_pn:name="Two_2_One_MUX.vf"/>
-    </transform>
-    <transform xil_pn:end_ts="1640797775" xil_pn:in_ck="5182900724876604618" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-499712632577234162" xil_pn:start_ts="1640797771">
+    <transform xil_pn:end_ts="1643369479" xil_pn:in_ck="-948515925952127829" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4977575416038173102" xil_pn:start_ts="1643369476">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Eight_2_One_MUX_beh.prj"/>
-      <outfile xil_pn:name="Eight_2_One_MUX_isim_beh.exe"/>
+      <outfile xil_pn:name="Master_Slave_posedge_beh.prj"/>
+      <outfile xil_pn:name="Master_Slave_posedge_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1640797776" xil_pn:in_ck="-253751210026558749" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-9006337990606309103" xil_pn:start_ts="1640797775">
+    <transform xil_pn:end_ts="1643369480" xil_pn:in_ck="6353721392611290651" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8241468926270832401" xil_pn:start_ts="1643369479">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Eight_2_One_MUX_isim_beh.wdb"/>
+      <outfile xil_pn:name="Master_Slave_posedge_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
