@@ -2,14 +2,14 @@ Command line:
    Master_Slave_posedge_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  55332
+     -socket  53688
 
-Fri Jan 28 17:01:29 2022
+Sun Jan 30 10:20:41 2022
 
 
  Elaboration Time: 0.03125 sec
 
- Current Memory Usage: 5149.58 Meg
+ Current Memory Usage: 5149.6 Meg
 
  Total Signals          : 75
  Total Nets             : 33
@@ -21,9 +21,9 @@ Fri Jan 28 17:01:29 2022
  Total Scalar Nets and Variables : 113
 Total Line Count : 16
 
- Total Simulation Time: 0.40625 sec
+ Total Simulation Time: 0.171875 sec
 
- Current Memory Usage: 4677.72 Meg
+ Current Memory Usage: 4677.74 Meg
 
-Fri Jan 28 17:03:53 2022
+Sun Jan 30 10:49:34 2022
 

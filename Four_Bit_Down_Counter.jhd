@@ -1,0 +1,9 @@
+MODULE Four_Bit_Down_Counter
+	SUBMODULE Master_Slave_posedge
+		INSTANCE XLXI_1
+	SUBMODULE Master_Slave_posedge
+		INSTANCE XLXI_2
+	SUBMODULE Master_Slave_posedge
+		INSTANCE XLXI_3
+	SUBMODULE Master_Slave_posedge
+		INSTANCE XLXI_4

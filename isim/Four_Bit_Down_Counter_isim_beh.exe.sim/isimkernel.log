@@ -1,0 +1,29 @@
+Command line:
+   Four_Bit_Down_Counter_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  53708
+
+Sun Jan 30 10:28:17 2022
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5150.21 Meg
+
+ Total Signals          : 271
+ Total Nets             : 83
+ Total Signal Drivers   : 72
+ Total Blocks           : 62
+ Total Primitive Blocks : 57
+ Total Processes        : 73
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 163
+Total Line Count : 25
+
+ Total Simulation Time: 0.1875 sec
+
+ Current Memory Usage: 4992.92 Meg
+
+Sun Jan 30 10:30:18 2022
+

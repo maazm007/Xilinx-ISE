@@ -1,0 +1,3 @@
+verilog work "Master_Slave.vf"
+verilog work "BlackBox.vf"
+verilog work "Couter_Task.vf"

@@ -32,15 +32,11 @@
         <signal name="Logic_1" />
         <signal name="PS" />
         <signal name="CLK" />
-        <signal name="XLXN_76" />
-        <signal name="Qb">
-        </signal>
         <signal name="XLXN_78" />
         <signal name="Q" />
-        <signal name="XLXN_80" />
-        <signal name="XLXN_82" />
-        <signal name="XLXN_84" />
-        <signal name="XLXN_85" />
+        <signal name="XLXN_86" />
+        <signal name="XLXN_87" />
+        <signal name="XLXN_89" />
         <port polarity="Input" name="Logic_1" />
         <port polarity="Input" name="PS" />
         <port polarity="Input" name="CLK" />
@@ -55,22 +51,13 @@
             <line x2="384" y1="-224" y2="-224" x1="320" />
             <line x2="384" y1="-160" y2="-160" x1="320" />
         </blockdef>
-        <blockdef name="gnd">
-            <timestamp>2000-1-1T10:10:10</timestamp>
-            <line x2="64" y1="-64" y2="-96" x1="64" />
-            <line x2="52" y1="-48" y2="-48" x1="76" />
-            <line x2="60" y1="-32" y2="-32" x1="68" />
-            <line x2="40" y1="-64" y2="-64" x1="88" />
-            <line x2="64" y1="-64" y2="-80" x1="64" />
-            <line x2="64" y1="-128" y2="-96" x1="64" />
-        </blockdef>
         <block symbolname="Master_Slave" name="XLXI_1">
             <blockpin signalname="CLK" name="CLOCK" />
             <blockpin signalname="Logic_1" name="J" />
             <blockpin signalname="Logic_1" name="K" />
             <blockpin signalname="PS" name="PS" />
             <blockpin signalname="XLXN_11" name="Q" />
-            <blockpin signalname="Qb" name="Qb" />
+            <blockpin name="Qb" />
         </block>
         <block symbolname="Master_Slave" name="XLXI_2">
             <blockpin signalname="XLXN_11" name="CLOCK" />
@@ -78,7 +65,7 @@
             <blockpin signalname="Logic_1" name="K" />
             <blockpin signalname="PS" name="PS" />
             <blockpin signalname="XLXN_12" name="Q" />
-            <blockpin signalname="Qb" name="Qb" />
+            <blockpin name="Qb" />
         </block>
         <block symbolname="Master_Slave" name="XLXI_3">
             <blockpin signalname="XLXN_12" name="CLOCK" />
@@ -86,7 +73,7 @@
             <blockpin signalname="Logic_1" name="K" />
             <blockpin signalname="PS" name="PS" />
             <blockpin signalname="XLXN_13" name="Q" />
-            <blockpin signalname="Qb" name="Qb" />
+            <blockpin name="Qb" />
         </block>
         <block symbolname="Master_Slave" name="XLXI_4">
             <blockpin signalname="XLXN_13" name="CLOCK" />
@@ -94,7 +81,7 @@
             <blockpin signalname="Logic_1" name="K" />
             <blockpin signalname="PS" name="PS" />
             <blockpin signalname="XLXN_14" name="Q" />
-            <blockpin signalname="Qb" name="Qb" />
+            <blockpin name="Qb" />
         </block>
         <block symbolname="Master_Slave" name="XLXI_5">
             <blockpin signalname="XLXN_14" name="CLOCK" />
@@ -102,7 +89,7 @@
             <blockpin signalname="Logic_1" name="K" />
             <blockpin signalname="PS" name="PS" />
             <blockpin signalname="XLXN_78" name="Q" />
-            <blockpin signalname="Qb" name="Qb" />
+            <blockpin name="Qb" />
         </block>
         <block symbolname="Master_Slave" name="XLXI_6">
             <blockpin signalname="XLXN_78" name="CLOCK" />
@@ -110,7 +97,7 @@
             <blockpin signalname="Logic_1" name="K" />
             <blockpin signalname="PS" name="PS" />
             <blockpin signalname="XLXN_16" name="Q" />
-            <blockpin signalname="Qb" name="Qb" />
+            <blockpin name="Qb" />
         </block>
         <block symbolname="Master_Slave" name="XLXI_7">
             <blockpin signalname="XLXN_16" name="CLOCK" />
@@ -118,7 +105,7 @@
             <blockpin signalname="Logic_1" name="K" />
             <blockpin signalname="PS" name="PS" />
             <blockpin signalname="XLXN_17" name="Q" />
-            <blockpin signalname="Qb" name="Qb" />
+            <blockpin name="Qb" />
         </block>
         <block symbolname="Master_Slave" name="XLXI_8">
             <blockpin signalname="XLXN_17" name="CLOCK" />
@@ -126,7 +113,7 @@
             <blockpin signalname="Logic_1" name="K" />
             <blockpin signalname="PS" name="PS" />
             <blockpin signalname="XLXN_18" name="Q" />
-            <blockpin signalname="Qb" name="Qb" />
+            <blockpin name="Qb" />
         </block>
         <block symbolname="Master_Slave" name="XLXI_9">
             <blockpin signalname="XLXN_18" name="CLOCK" />
@@ -134,7 +121,7 @@
             <blockpin signalname="Logic_1" name="K" />
             <blockpin signalname="PS" name="PS" />
             <blockpin signalname="XLXN_19" name="Q" />
-            <blockpin signalname="Qb" name="Qb" />
+            <blockpin name="Qb" />
         </block>
         <block symbolname="Master_Slave" name="XLXI_10">
             <blockpin signalname="XLXN_19" name="CLOCK" />
@@ -142,10 +129,7 @@
             <blockpin signalname="Logic_1" name="K" />
             <blockpin signalname="PS" name="PS" />
             <blockpin signalname="XLXN_21" name="Q" />
-            <blockpin signalname="Qb" name="Qb" />
-        </block>
-        <block symbolname="gnd" name="XLXI_11">
-            <blockpin signalname="Qb" name="G" />
+            <blockpin name="Qb" />
         </block>
         <block symbolname="Master_Slave" name="XLXI_12">
             <blockpin signalname="XLXN_21" name="CLOCK" />
@@ -153,7 +137,7 @@
             <blockpin signalname="Logic_1" name="K" />
             <blockpin signalname="PS" name="PS" />
             <blockpin signalname="XLXN_22" name="Q" />
-            <blockpin signalname="Qb" name="Qb" />
+            <blockpin name="Qb" />
         </block>
         <block symbolname="Master_Slave" name="XLXI_13">
             <blockpin signalname="XLXN_22" name="CLOCK" />
@@ -161,7 +145,7 @@
             <blockpin signalname="Logic_1" name="K" />
             <blockpin signalname="PS" name="PS" />
             <blockpin signalname="XLXN_23" name="Q" />
-            <blockpin signalname="Qb" name="Qb" />
+            <blockpin name="Qb" />
         </block>
         <block symbolname="Master_Slave" name="XLXI_14">
             <blockpin signalname="XLXN_23" name="CLOCK" />
@@ -169,7 +153,7 @@
             <blockpin signalname="Logic_1" name="K" />
             <blockpin signalname="PS" name="PS" />
             <blockpin signalname="XLXN_24" name="Q" />
-            <blockpin signalname="Qb" name="Qb" />
+            <blockpin name="Qb" />
         </block>
         <block symbolname="Master_Slave" name="XLXI_15">
             <blockpin signalname="XLXN_24" name="CLOCK" />
@@ -177,7 +161,7 @@
             <blockpin signalname="Logic_1" name="K" />
             <blockpin signalname="PS" name="PS" />
             <blockpin signalname="XLXN_25" name="Q" />
-            <blockpin signalname="Qb" name="Qb" />
+            <blockpin name="Qb" />
         </block>
         <block symbolname="Master_Slave" name="XLXI_16">
             <blockpin signalname="XLXN_25" name="CLOCK" />
@@ -185,7 +169,7 @@
             <blockpin signalname="Logic_1" name="K" />
             <blockpin signalname="PS" name="PS" />
             <blockpin signalname="XLXN_26" name="Q" />
-            <blockpin signalname="Qb" name="Qb" />
+            <blockpin name="Qb" />
         </block>
         <block symbolname="Master_Slave" name="XLXI_17">
             <blockpin signalname="XLXN_27" name="CLOCK" />
@@ -193,7 +177,7 @@
             <blockpin signalname="Logic_1" name="K" />
             <blockpin signalname="PS" name="PS" />
             <blockpin signalname="XLXN_28" name="Q" />
-            <blockpin signalname="Qb" name="Qb" />
+            <blockpin name="Qb" />
         </block>
         <block symbolname="Master_Slave" name="XLXI_18">
             <blockpin signalname="XLXN_28" name="CLOCK" />
@@ -201,7 +185,7 @@
             <blockpin signalname="Logic_1" name="K" />
             <blockpin signalname="PS" name="PS" />
             <blockpin signalname="XLXN_29" name="Q" />
-            <blockpin signalname="Qb" name="Qb" />
+            <blockpin name="Qb" />
         </block>
         <block symbolname="Master_Slave" name="XLXI_19">
             <blockpin signalname="XLXN_29" name="CLOCK" />
@@ -209,7 +193,7 @@
             <blockpin signalname="Logic_1" name="K" />
             <blockpin signalname="PS" name="PS" />
             <blockpin signalname="XLXN_30" name="Q" />
-            <blockpin signalname="Qb" name="Qb" />
+            <blockpin name="Qb" />
         </block>
         <block symbolname="Master_Slave" name="XLXI_20">
             <blockpin signalname="XLXN_30" name="CLOCK" />
@@ -217,7 +201,7 @@
             <blockpin signalname="Logic_1" name="K" />
             <blockpin signalname="PS" name="PS" />
             <blockpin signalname="XLXN_31" name="Q" />
-            <blockpin signalname="Qb" name="Qb" />
+            <blockpin name="Qb" />
         </block>
         <block symbolname="Master_Slave" name="XLXI_21">
             <blockpin signalname="XLXN_32" name="CLOCK" />
@@ -225,7 +209,7 @@
             <blockpin signalname="Logic_1" name="K" />
             <blockpin signalname="PS" name="PS" />
             <blockpin signalname="XLXN_33" name="Q" />
-            <blockpin signalname="Qb" name="Qb" />
+            <blockpin name="Qb" />
         </block>
         <block symbolname="Master_Slave" name="XLXI_22">
             <blockpin signalname="XLXN_33" name="CLOCK" />
@@ -233,7 +217,7 @@
             <blockpin signalname="Logic_1" name="K" />
             <blockpin signalname="PS" name="PS" />
             <blockpin signalname="XLXN_34" name="Q" />
-            <blockpin signalname="Qb" name="Qb" />
+            <blockpin name="Qb" />
         </block>
         <block symbolname="Master_Slave" name="XLXI_23">
             <blockpin signalname="XLXN_34" name="CLOCK" />
@@ -241,15 +225,15 @@
             <blockpin signalname="Logic_1" name="K" />
             <blockpin signalname="PS" name="PS" />
             <blockpin signalname="XLXN_35" name="Q" />
-            <blockpin signalname="Qb" name="Qb" />
+            <blockpin name="Qb" />
         </block>
         <block symbolname="Master_Slave" name="XLXI_24">
             <blockpin signalname="XLXN_35" name="CLOCK" />
             <blockpin signalname="Logic_1" name="J" />
             <blockpin signalname="Logic_1" name="K" />
             <blockpin signalname="PS" name="PS" />
-            <blockpin signalname="XLXN_80" name="Q" />
-            <blockpin signalname="Qb" name="Qb" />
+            <blockpin signalname="XLXN_86" name="Q" />
+            <blockpin name="Qb" />
         </block>
         <block symbolname="Master_Slave" name="XLXI_25">
             <blockpin signalname="XLXN_31" name="CLOCK" />
@@ -257,7 +241,7 @@
             <blockpin signalname="Logic_1" name="K" />
             <blockpin signalname="PS" name="PS" />
             <blockpin signalname="XLXN_32" name="Q" />
-            <blockpin signalname="Qb" name="Qb" />
+            <blockpin name="Qb" />
         </block>
         <block symbolname="Master_Slave" name="XLXI_26">
             <blockpin signalname="XLXN_26" name="CLOCK" />
@@ -265,15 +249,23 @@
             <blockpin signalname="Logic_1" name="K" />
             <blockpin signalname="PS" name="PS" />
             <blockpin signalname="XLXN_27" name="Q" />
-            <blockpin signalname="Qb" name="Qb" />
+            <blockpin name="Qb" />
         </block>
         <block symbolname="Master_Slave" name="XLXI_27">
-            <blockpin signalname="XLXN_80" name="CLOCK" />
+            <blockpin signalname="XLXN_87" name="CLOCK" />
             <blockpin signalname="Logic_1" name="J" />
             <blockpin signalname="Logic_1" name="K" />
             <blockpin signalname="PS" name="PS" />
             <blockpin signalname="Q" name="Q" />
-            <blockpin signalname="Qb" name="Qb" />
+            <blockpin name="Qb" />
+        </block>
+        <block symbolname="Master_Slave" name="XLXI_28">
+            <blockpin signalname="XLXN_86" name="CLOCK" />
+            <blockpin signalname="Logic_1" name="J" />
+            <blockpin signalname="Logic_1" name="K" />
+            <blockpin signalname="PS" name="PS" />
+            <blockpin signalname="XLXN_87" name="Q" />
+            <blockpin name="Qb" />
         </block>
     </netlist>
     <sheet sheetnum="1" width="3520" height="2720">
@@ -325,7 +317,6 @@
         </instance>
         <instance x="1456" y="432" name="XLXI_3" orien="R0">
         </instance>
-        <instance x="48" y="2416" name="XLXI_11" orien="R0" />
         <branch name="XLXN_11">
             <wire x2="720" y1="208" y2="208" x1="592" />
             <wire x2="720" y1="208" y2="400" x1="720" />
@@ -478,6 +469,10 @@
             <wire x2="1936" y1="1456" y2="1824" x1="1936" />
             <wire x2="2032" y1="1824" y2="1824" x1="1936" />
             <wire x2="2032" y1="1824" y2="1856" x1="2032" />
+            <wire x2="1936" y1="1824" y2="2240" x1="1936" />
+            <wire x2="2016" y1="2240" y2="2240" x1="1936" />
+            <wire x2="2016" y1="2240" y2="2272" x1="2016" />
+            <wire x2="2032" y1="2272" y2="2272" x1="2016" />
             <wire x2="2032" y1="1456" y2="1456" x1="1936" />
             <wire x2="2032" y1="1456" y2="1488" x1="2032" />
             <wire x2="2032" y1="1072" y2="1072" x1="1936" />
@@ -531,11 +526,11 @@
             <wire x2="32" y1="704" y2="1056" x1="32" />
             <wire x2="32" y1="1056" y2="1456" x1="32" />
             <wire x2="32" y1="1456" y2="1824" x1="32" />
-            <wire x2="32" y1="1824" y2="2512" x1="32" />
-            <wire x2="288" y1="2512" y2="2512" x1="32" />
             <wire x2="192" y1="1824" y2="1824" x1="32" />
             <wire x2="192" y1="1824" y2="1856" x1="192" />
             <wire x2="208" y1="1856" y2="1856" x1="192" />
+            <wire x2="32" y1="1824" y2="2272" x1="32" />
+            <wire x2="272" y1="2272" y2="2272" x1="32" />
             <wire x2="192" y1="1456" y2="1456" x1="32" />
             <wire x2="192" y1="1456" y2="1488" x1="192" />
             <wire x2="208" y1="1488" y2="1488" x1="192" />
@@ -578,6 +573,8 @@
             <wire x2="1440" y1="1424" y2="1456" x1="1440" />
             <wire x2="1456" y1="1792" y2="1792" x1="1440" />
             <wire x2="1440" y1="1792" y2="1824" x1="1440" />
+            <wire x2="2032" y1="2208" y2="2208" x1="2016" />
+            <wire x2="2016" y1="2208" y2="2240" x1="2016" />
             <wire x2="2032" y1="256" y2="288" x1="2032" />
             <wire x2="2032" y1="672" y2="704" x1="2032" />
             <wire x2="2032" y1="1040" y2="1072" x1="2032" />
@@ -591,7 +588,6 @@
             <wire x2="2672" y1="2208" y2="2208" x1="2656" />
             <wire x2="2656" y1="2208" y2="2240" x1="2656" />
         </branch>
-        <iomarker fontsize="28" x="288" y="2512" name="Logic_1" orien="R0" />
         <branch name="PS">
             <wire x2="80" y1="80" y2="208" x1="80" />
             <wire x2="208" y1="208" y2="208" x1="80" />
@@ -628,6 +624,8 @@
             <wire x2="2000" y1="976" y2="1360" x1="2000" />
             <wire x2="2000" y1="1360" y2="1728" x1="2000" />
             <wire x2="2032" y1="1728" y2="1728" x1="2000" />
+            <wire x2="2000" y1="1728" y2="2144" x1="2000" />
+            <wire x2="2032" y1="2144" y2="2144" x1="2000" />
             <wire x2="2032" y1="1360" y2="1360" x1="2000" />
             <wire x2="2032" y1="976" y2="976" x1="2000" />
             <wire x2="2032" y1="608" y2="608" x1="2000" />
@@ -657,68 +655,6 @@
             <wire x2="208" y1="400" y2="400" x1="192" />
         </branch>
         <iomarker fontsize="28" x="192" y="400" name="CLK" orien="R180" />
-        <branch name="Qb">
-            <wire x2="112" y1="2224" y2="2288" x1="112" />
-            <wire x2="192" y1="2224" y2="2224" x1="112" />
-            <wire x2="192" y1="2224" y2="2416" x1="192" />
-            <wire x2="672" y1="2416" y2="2416" x1="192" />
-            <wire x2="1296" y1="2416" y2="2416" x1="672" />
-            <wire x2="1904" y1="2416" y2="2416" x1="1296" />
-            <wire x2="2496" y1="2416" y2="2416" x1="1904" />
-            <wire x2="3200" y1="2416" y2="2416" x1="2496" />
-            <wire x2="672" y1="272" y2="272" x1="592" />
-            <wire x2="672" y1="272" y2="672" x1="672" />
-            <wire x2="672" y1="672" y2="1024" x1="672" />
-            <wire x2="672" y1="1024" y2="1424" x1="672" />
-            <wire x2="672" y1="1424" y2="1792" x1="672" />
-            <wire x2="672" y1="1792" y2="2416" x1="672" />
-            <wire x2="672" y1="672" y2="672" x1="592" />
-            <wire x2="672" y1="1024" y2="1024" x1="592" />
-            <wire x2="672" y1="1424" y2="1424" x1="592" />
-            <wire x2="672" y1="1792" y2="1792" x1="592" />
-            <wire x2="1296" y1="272" y2="272" x1="1248" />
-            <wire x2="1296" y1="272" y2="672" x1="1296" />
-            <wire x2="1296" y1="672" y2="1040" x1="1296" />
-            <wire x2="1296" y1="1040" y2="1424" x1="1296" />
-            <wire x2="1296" y1="1424" y2="1792" x1="1296" />
-            <wire x2="1296" y1="1792" y2="2416" x1="1296" />
-            <wire x2="1296" y1="672" y2="672" x1="1248" />
-            <wire x2="1296" y1="1040" y2="1040" x1="1248" />
-            <wire x2="1296" y1="1424" y2="1424" x1="1248" />
-            <wire x2="1296" y1="1792" y2="1792" x1="1248" />
-            <wire x2="1904" y1="272" y2="272" x1="1840" />
-            <wire x2="1904" y1="272" y2="672" x1="1904" />
-            <wire x2="1904" y1="672" y2="1040" x1="1904" />
-            <wire x2="1904" y1="1040" y2="1424" x1="1904" />
-            <wire x2="1904" y1="1424" y2="1792" x1="1904" />
-            <wire x2="1904" y1="1792" y2="2416" x1="1904" />
-            <wire x2="1904" y1="672" y2="672" x1="1840" />
-            <wire x2="1904" y1="1040" y2="1040" x1="1840" />
-            <wire x2="1904" y1="1424" y2="1424" x1="1840" />
-            <wire x2="1904" y1="1792" y2="1792" x1="1840" />
-            <wire x2="2496" y1="256" y2="256" x1="2416" />
-            <wire x2="2496" y1="256" y2="672" x1="2496" />
-            <wire x2="2496" y1="672" y2="1040" x1="2496" />
-            <wire x2="2496" y1="1040" y2="1424" x1="2496" />
-            <wire x2="2496" y1="1424" y2="1792" x1="2496" />
-            <wire x2="2496" y1="1792" y2="2416" x1="2496" />
-            <wire x2="2496" y1="672" y2="672" x1="2416" />
-            <wire x2="2496" y1="1040" y2="1040" x1="2416" />
-            <wire x2="2496" y1="1424" y2="1424" x1="2416" />
-            <wire x2="2496" y1="1792" y2="1792" x1="2416" />
-            <wire x2="3200" y1="256" y2="256" x1="3024" />
-            <wire x2="3200" y1="256" y2="656" x1="3200" />
-            <wire x2="3200" y1="656" y2="1040" x1="3200" />
-            <wire x2="3200" y1="1040" y2="1408" x1="3200" />
-            <wire x2="3200" y1="1408" y2="1792" x1="3200" />
-            <wire x2="3200" y1="1792" y2="2208" x1="3200" />
-            <wire x2="3200" y1="2208" y2="2416" x1="3200" />
-            <wire x2="3200" y1="656" y2="656" x1="3024" />
-            <wire x2="3200" y1="1040" y2="1040" x1="3024" />
-            <wire x2="3200" y1="1408" y2="1408" x1="3024" />
-            <wire x2="3200" y1="1792" y2="1792" x1="3024" />
-            <wire x2="3200" y1="2208" y2="2208" x1="3056" />
-        </branch>
         <instance x="2032" y="416" name="XLXI_4" orien="R0">
         </instance>
         <branch name="XLXN_78">
@@ -729,18 +665,25 @@
             <wire x2="3088" y1="192" y2="896" x1="3088" />
         </branch>
         <branch name="Q">
-            <wire x2="3072" y1="2144" y2="2144" x1="3056" />
-            <wire x2="3312" y1="2144" y2="2144" x1="3072" />
+            <wire x2="3312" y1="2144" y2="2144" x1="3056" />
         </branch>
         <instance x="2672" y="2368" name="XLXI_27" orien="R0">
         </instance>
-        <branch name="XLXN_80">
-            <wire x2="2544" y1="2000" y2="2336" x1="2544" />
-            <wire x2="2672" y1="2336" y2="2336" x1="2544" />
-            <wire x2="3040" y1="2000" y2="2000" x1="2544" />
-            <wire x2="3040" y1="1728" y2="1728" x1="3024" />
-            <wire x2="3040" y1="1728" y2="2000" x1="3040" />
-        </branch>
         <iomarker fontsize="28" x="3312" y="2144" name="Q" orien="R0" />
+        <instance x="2032" y="2368" name="XLXI_28" orien="R0">
+        </instance>
+        <branch name="XLXN_86">
+            <wire x2="3104" y1="2000" y2="2000" x1="1968" />
+            <wire x2="1968" y1="2000" y2="2336" x1="1968" />
+            <wire x2="2032" y1="2336" y2="2336" x1="1968" />
+            <wire x2="3104" y1="1728" y2="1728" x1="3024" />
+            <wire x2="3104" y1="1728" y2="2000" x1="3104" />
+        </branch>
+        <branch name="XLXN_87">
+            <wire x2="2544" y1="2144" y2="2144" x1="2416" />
+            <wire x2="2544" y1="2144" y2="2336" x1="2544" />
+            <wire x2="2672" y1="2336" y2="2336" x1="2544" />
+        </branch>
+        <iomarker fontsize="28" x="272" y="2272" name="Logic_1" orien="R0" />
     </sheet>
 </drawing>

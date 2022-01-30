@@ -1,0 +1,574 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.24 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.24 secs
+ 
+--> Reading design: Couter_Task.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Couter_Task.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Couter_Task"
+Output Format                      : NGC
+Target Device                      : xc7a100t-1-csg324
+
+---- Source Options
+Top Module Name                    : Couter_Task
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "E:\Projects\Xilinx\Digital\Master_Slave.vf" into library work
+Parsing module <Master_Slave>.
+Analyzing Verilog file "E:\Projects\Xilinx\Digital\BlackBox.vf" into library work
+Parsing module <Master_Slave_MUSER_BlackBox>.
+Parsing module <BlackBox>.
+Analyzing Verilog file "E:\Projects\Xilinx\Digital\Couter_Task.vf" into library work
+Parsing module <Master_Slave_MUSER_Couter_Task>.
+Parsing module <BlackBox_MUSER_Couter_Task>.
+Parsing module <Couter_Task>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <Couter_Task>.
+
+Elaborating module <Master_Slave_MUSER_Couter_Task>.
+
+Elaborating module <NAND3>.
+
+Elaborating module <NAND2>.
+
+Elaborating module <OR2>.
+
+Elaborating module <INV>.
+
+Elaborating module <VCC>.
+
+Elaborating module <BlackBox_MUSER_Couter_Task>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Couter_Task>.
+    Related source file is "E:\Projects\Xilinx\Digital\Couter_Task.vf".
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 318: Output port <Qb> of the instance <XLXI_1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 324: Output port <Qb> of the instance <XLXI_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 330: Output port <Qb> of the instance <XLXI_3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 336: Output port <Qb> of the instance <XLXI_4> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <Couter_Task> synthesized.
+
+Synthesizing Unit <Master_Slave_MUSER_Couter_Task>.
+    Related source file is "E:\Projects\Xilinx\Digital\Couter_Task.vf".
+    Summary:
+	no macro.
+Unit <Master_Slave_MUSER_Couter_Task> synthesized.
+
+Synthesizing Unit <BlackBox_MUSER_Couter_Task>.
+    Related source file is "E:\Projects\Xilinx\Digital\Couter_Task.vf".
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 130: Output port <Qb> of the instance <XLXI_1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 136: Output port <Qb> of the instance <XLXI_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 142: Output port <Qb> of the instance <XLXI_3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 148: Output port <Qb> of the instance <XLXI_4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 154: Output port <Qb> of the instance <XLXI_5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 160: Output port <Qb> of the instance <XLXI_6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 166: Output port <Qb> of the instance <XLXI_7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 172: Output port <Qb> of the instance <XLXI_8> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 178: Output port <Qb> of the instance <XLXI_9> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 184: Output port <Qb> of the instance <XLXI_10> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 190: Output port <Qb> of the instance <XLXI_12> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 196: Output port <Qb> of the instance <XLXI_13> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 202: Output port <Qb> of the instance <XLXI_14> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 208: Output port <Qb> of the instance <XLXI_15> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 214: Output port <Qb> of the instance <XLXI_16> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 220: Output port <Qb> of the instance <XLXI_17> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 226: Output port <Qb> of the instance <XLXI_18> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 232: Output port <Qb> of the instance <XLXI_19> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 238: Output port <Qb> of the instance <XLXI_20> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 244: Output port <Qb> of the instance <XLXI_21> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 250: Output port <Qb> of the instance <XLXI_22> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 256: Output port <Qb> of the instance <XLXI_23> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 262: Output port <Qb> of the instance <XLXI_24> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 268: Output port <Qb> of the instance <XLXI_25> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 274: Output port <Qb> of the instance <XLXI_26> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 280: Output port <Qb> of the instance <XLXI_27> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\Xilinx\Digital\Couter_Task.vf" line 286: Output port <Qb> of the instance <XLXI_28> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <BlackBox_MUSER_Couter_Task> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2170 - Unit Master_Slave_MUSER_Couter_Task : the following signal(s) form a combinatorial loop: XLXN_69, XLXN_59, Q_DUMMY, Qb_DUMMY, XLXN_58.
+
+Optimizing unit <Couter_Task> ...
+
+Optimizing unit <BlackBox_MUSER_Couter_Task> ...
+
+Optimizing unit <Master_Slave_MUSER_Couter_Task> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Couter_Task, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Couter_Task.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 125
+#      INV                         : 62
+#      OR2                         : 62
+#      VCC                         : 1
+# IO Buffers                       : 6
+#      IBUF                        : 2
+#      OBUF                        : 4
+# Logical                          : 248
+#      NAND2                       : 124
+#      NAND3                       : 124
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                   62  out of  63400     0%  
+    Number used as Logic:                62  out of  63400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     62
+   Number with an unused Flip Flop:      62  out of     62   100%  
+   Number with an unused LUT:             0  out of     62     0%  
+   Number of fully used LUT-FF pairs:     0  out of     62     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                           6
+ Number of bonded IOBs:                   6  out of    210     2%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 232.643ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 13075768947601318000000 / 4
+-------------------------------------------------------------------------
+Delay:               232.643ns (Levels of Logic = 219)
+  Source:            PS (PAD)
+  Destination:       Q3 (PAD)
+
+  Data Path: PS to Q3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            93   0.001   0.565  PS_IBUF (PS_IBUF)
+     INV:I->O              2   0.664   0.925  XLXI_6/XLXI_1/XLXI_11 (XLXI_6/XLXI_1/XLXN_53)
+     OR2:I1->O             1   0.144   0.919  XLXI_6/XLXI_1/XLXI_9 (XLXI_6/XLXI_1/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_6/XLXI_1/XLXI_4 (XLXI_6/XLXI_1/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_6/XLXI_1/XLXI_3 (XLXI_6/XLXI_1/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_6/XLXI_1/XLXI_6 (XLXI_6/XLXI_1/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_6/XLXI_1/XLXI_8 (XLXI_6/XLXI_1/Qb_DUMMY)
+     NAND2:I0->O           5   0.124   0.966  XLXI_6/XLXI_1/XLXI_7 (XLXI_6/XLXN_11)
+     NAND3:I0->O           1   0.124   0.939  XLXI_6/XLXI_2/XLXI_1 (XLXI_6/XLXI_2/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_6/XLXI_2/XLXI_9 (XLXI_6/XLXI_2/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_6/XLXI_2/XLXI_4 (XLXI_6/XLXI_2/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_6/XLXI_2/XLXI_3 (XLXI_6/XLXI_2/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_6/XLXI_2/XLXI_6 (XLXI_6/XLXI_2/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_6/XLXI_2/XLXI_8 (XLXI_6/XLXI_2/Qb_DUMMY)
+     NAND2:I0->O           5   0.124   0.966  XLXI_6/XLXI_2/XLXI_7 (XLXI_6/XLXN_12)
+     NAND3:I0->O           1   0.124   0.939  XLXI_6/XLXI_3/XLXI_1 (XLXI_6/XLXI_3/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_6/XLXI_3/XLXI_9 (XLXI_6/XLXI_3/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_6/XLXI_3/XLXI_4 (XLXI_6/XLXI_3/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_6/XLXI_3/XLXI_3 (XLXI_6/XLXI_3/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_6/XLXI_3/XLXI_6 (XLXI_6/XLXI_3/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_6/XLXI_3/XLXI_8 (XLXI_6/XLXI_3/Qb_DUMMY)
+     NAND2:I0->O           5   0.124   0.966  XLXI_6/XLXI_3/XLXI_7 (XLXI_6/XLXN_13)
+     NAND3:I0->O           1   0.124   0.939  XLXI_6/XLXI_4/XLXI_1 (XLXI_6/XLXI_4/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_6/XLXI_4/XLXI_9 (XLXI_6/XLXI_4/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_6/XLXI_4/XLXI_4 (XLXI_6/XLXI_4/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_6/XLXI_4/XLXI_3 (XLXI_6/XLXI_4/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_6/XLXI_4/XLXI_6 (XLXI_6/XLXI_4/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_6/XLXI_4/XLXI_8 (XLXI_6/XLXI_4/Qb_DUMMY)
+     NAND2:I0->O           5   0.124   0.966  XLXI_6/XLXI_4/XLXI_7 (XLXI_6/XLXN_14)
+     NAND3:I0->O           1   0.124   0.939  XLXI_6/XLXI_5/XLXI_1 (XLXI_6/XLXI_5/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_6/XLXI_5/XLXI_9 (XLXI_6/XLXI_5/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_6/XLXI_5/XLXI_4 (XLXI_6/XLXI_5/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_6/XLXI_5/XLXI_3 (XLXI_6/XLXI_5/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_6/XLXI_5/XLXI_6 (XLXI_6/XLXI_5/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_6/XLXI_5/XLXI_8 (XLXI_6/XLXI_5/Qb_DUMMY)
+     NAND2:I0->O           5   0.124   0.966  XLXI_6/XLXI_5/XLXI_7 (XLXI_6/XLXN_78)
+     NAND3:I0->O           1   0.124   0.939  XLXI_6/XLXI_6/XLXI_1 (XLXI_6/XLXI_6/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_6/XLXI_6/XLXI_9 (XLXI_6/XLXI_6/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_6/XLXI_6/XLXI_4 (XLXI_6/XLXI_6/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_6/XLXI_6/XLXI_3 (XLXI_6/XLXI_6/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_6/XLXI_6/XLXI_6 (XLXI_6/XLXI_6/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_6/XLXI_6/XLXI_8 (XLXI_6/XLXI_6/Qb_DUMMY)
+     NAND2:I0->O           5   0.124   0.966  XLXI_6/XLXI_6/XLXI_7 (XLXI_6/XLXN_16)
+     NAND3:I0->O           1   0.124   0.939  XLXI_6/XLXI_7/XLXI_1 (XLXI_6/XLXI_7/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_6/XLXI_7/XLXI_9 (XLXI_6/XLXI_7/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_6/XLXI_7/XLXI_4 (XLXI_6/XLXI_7/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_6/XLXI_7/XLXI_3 (XLXI_6/XLXI_7/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_6/XLXI_7/XLXI_6 (XLXI_6/XLXI_7/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_6/XLXI_7/XLXI_8 (XLXI_6/XLXI_7/Qb_DUMMY)
+     NAND2:I0->O           5   0.124   0.966  XLXI_6/XLXI_7/XLXI_7 (XLXI_6/XLXN_17)
+     NAND3:I0->O           1   0.124   0.939  XLXI_6/XLXI_8/XLXI_1 (XLXI_6/XLXI_8/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_6/XLXI_8/XLXI_9 (XLXI_6/XLXI_8/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_6/XLXI_8/XLXI_4 (XLXI_6/XLXI_8/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_6/XLXI_8/XLXI_3 (XLXI_6/XLXI_8/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_6/XLXI_8/XLXI_6 (XLXI_6/XLXI_8/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_6/XLXI_8/XLXI_8 (XLXI_6/XLXI_8/Qb_DUMMY)
+     NAND2:I0->O           5   0.124   0.966  XLXI_6/XLXI_8/XLXI_7 (XLXI_6/XLXN_18)
+     NAND3:I0->O           1   0.124   0.939  XLXI_6/XLXI_9/XLXI_1 (XLXI_6/XLXI_9/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_6/XLXI_9/XLXI_9 (XLXI_6/XLXI_9/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_6/XLXI_9/XLXI_4 (XLXI_6/XLXI_9/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_6/XLXI_9/XLXI_3 (XLXI_6/XLXI_9/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_6/XLXI_9/XLXI_6 (XLXI_6/XLXI_9/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_6/XLXI_9/XLXI_8 (XLXI_6/XLXI_9/Qb_DUMMY)
+     NAND2:I0->O           5   0.124   0.966  XLXI_6/XLXI_9/XLXI_7 (XLXI_6/XLXN_19)
+     NAND3:I0->O           1   0.124   0.939  XLXI_6/XLXI_10/XLXI_1 (XLXI_6/XLXI_10/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_6/XLXI_10/XLXI_9 (XLXI_6/XLXI_10/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_6/XLXI_10/XLXI_4 (XLXI_6/XLXI_10/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_6/XLXI_10/XLXI_3 (XLXI_6/XLXI_10/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_6/XLXI_10/XLXI_6 (XLXI_6/XLXI_10/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_6/XLXI_10/XLXI_8 (XLXI_6/XLXI_10/Qb_DUMMY)
+     NAND2:I0->O           5   0.124   0.966  XLXI_6/XLXI_10/XLXI_7 (XLXI_6/XLXN_21)
+     NAND3:I0->O           1   0.124   0.939  XLXI_6/XLXI_12/XLXI_1 (XLXI_6/XLXI_12/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_6/XLXI_12/XLXI_9 (XLXI_6/XLXI_12/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_6/XLXI_12/XLXI_4 (XLXI_6/XLXI_12/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_6/XLXI_12/XLXI_3 (XLXI_6/XLXI_12/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_6/XLXI_12/XLXI_6 (XLXI_6/XLXI_12/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_6/XLXI_12/XLXI_8 (XLXI_6/XLXI_12/Qb_DUMMY)
+     NAND2:I0->O           5   0.124   0.966  XLXI_6/XLXI_12/XLXI_7 (XLXI_6/XLXN_22)
+     NAND3:I0->O           1   0.124   0.939  XLXI_6/XLXI_13/XLXI_1 (XLXI_6/XLXI_13/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_6/XLXI_13/XLXI_9 (XLXI_6/XLXI_13/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_6/XLXI_13/XLXI_4 (XLXI_6/XLXI_13/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_6/XLXI_13/XLXI_3 (XLXI_6/XLXI_13/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_6/XLXI_13/XLXI_6 (XLXI_6/XLXI_13/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_6/XLXI_13/XLXI_8 (XLXI_6/XLXI_13/Qb_DUMMY)
+     NAND2:I0->O           5   0.124   0.966  XLXI_6/XLXI_13/XLXI_7 (XLXI_6/XLXN_23)
+     NAND3:I0->O           1   0.124   0.939  XLXI_6/XLXI_14/XLXI_1 (XLXI_6/XLXI_14/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_6/XLXI_14/XLXI_9 (XLXI_6/XLXI_14/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_6/XLXI_14/XLXI_4 (XLXI_6/XLXI_14/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_6/XLXI_14/XLXI_3 (XLXI_6/XLXI_14/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_6/XLXI_14/XLXI_6 (XLXI_6/XLXI_14/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_6/XLXI_14/XLXI_8 (XLXI_6/XLXI_14/Qb_DUMMY)
+     NAND2:I0->O           5   0.124   0.966  XLXI_6/XLXI_14/XLXI_7 (XLXI_6/XLXN_24)
+     NAND3:I0->O           1   0.124   0.939  XLXI_6/XLXI_15/XLXI_1 (XLXI_6/XLXI_15/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_6/XLXI_15/XLXI_9 (XLXI_6/XLXI_15/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_6/XLXI_15/XLXI_4 (XLXI_6/XLXI_15/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_6/XLXI_15/XLXI_3 (XLXI_6/XLXI_15/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_6/XLXI_15/XLXI_6 (XLXI_6/XLXI_15/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_6/XLXI_15/XLXI_8 (XLXI_6/XLXI_15/Qb_DUMMY)
+     NAND2:I0->O           5   0.124   0.966  XLXI_6/XLXI_15/XLXI_7 (XLXI_6/XLXN_25)
+     NAND3:I0->O           1   0.124   0.939  XLXI_6/XLXI_16/XLXI_1 (XLXI_6/XLXI_16/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_6/XLXI_16/XLXI_9 (XLXI_6/XLXI_16/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_6/XLXI_16/XLXI_4 (XLXI_6/XLXI_16/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_6/XLXI_16/XLXI_3 (XLXI_6/XLXI_16/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_6/XLXI_16/XLXI_6 (XLXI_6/XLXI_16/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_6/XLXI_16/XLXI_8 (XLXI_6/XLXI_16/Qb_DUMMY)
+     NAND2:I0->O           5   0.124   0.966  XLXI_6/XLXI_16/XLXI_7 (XLXI_6/XLXN_26)
+     NAND3:I0->O           1   0.124   0.939  XLXI_6/XLXI_26/XLXI_1 (XLXI_6/XLXI_26/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_6/XLXI_26/XLXI_9 (XLXI_6/XLXI_26/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_6/XLXI_26/XLXI_4 (XLXI_6/XLXI_26/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_6/XLXI_26/XLXI_3 (XLXI_6/XLXI_26/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_6/XLXI_26/XLXI_6 (XLXI_6/XLXI_26/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_6/XLXI_26/XLXI_8 (XLXI_6/XLXI_26/Qb_DUMMY)
+     NAND2:I0->O           5   0.124   0.966  XLXI_6/XLXI_26/XLXI_7 (XLXI_6/XLXN_27)
+     NAND3:I0->O           1   0.124   0.939  XLXI_6/XLXI_17/XLXI_1 (XLXI_6/XLXI_17/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_6/XLXI_17/XLXI_9 (XLXI_6/XLXI_17/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_6/XLXI_17/XLXI_4 (XLXI_6/XLXI_17/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_6/XLXI_17/XLXI_3 (XLXI_6/XLXI_17/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_6/XLXI_17/XLXI_6 (XLXI_6/XLXI_17/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_6/XLXI_17/XLXI_8 (XLXI_6/XLXI_17/Qb_DUMMY)
+     NAND2:I0->O           5   0.124   0.966  XLXI_6/XLXI_17/XLXI_7 (XLXI_6/XLXN_28)
+     NAND3:I0->O           1   0.124   0.939  XLXI_6/XLXI_18/XLXI_1 (XLXI_6/XLXI_18/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_6/XLXI_18/XLXI_9 (XLXI_6/XLXI_18/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_6/XLXI_18/XLXI_4 (XLXI_6/XLXI_18/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_6/XLXI_18/XLXI_3 (XLXI_6/XLXI_18/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_6/XLXI_18/XLXI_6 (XLXI_6/XLXI_18/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_6/XLXI_18/XLXI_8 (XLXI_6/XLXI_18/Qb_DUMMY)
+     NAND2:I0->O           5   0.124   0.966  XLXI_6/XLXI_18/XLXI_7 (XLXI_6/XLXN_29)
+     NAND3:I0->O           1   0.124   0.939  XLXI_6/XLXI_19/XLXI_1 (XLXI_6/XLXI_19/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_6/XLXI_19/XLXI_9 (XLXI_6/XLXI_19/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_6/XLXI_19/XLXI_4 (XLXI_6/XLXI_19/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_6/XLXI_19/XLXI_3 (XLXI_6/XLXI_19/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_6/XLXI_19/XLXI_6 (XLXI_6/XLXI_19/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_6/XLXI_19/XLXI_8 (XLXI_6/XLXI_19/Qb_DUMMY)
+     NAND2:I0->O           5   0.124   0.966  XLXI_6/XLXI_19/XLXI_7 (XLXI_6/XLXN_30)
+     NAND3:I0->O           1   0.124   0.939  XLXI_6/XLXI_20/XLXI_1 (XLXI_6/XLXI_20/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_6/XLXI_20/XLXI_9 (XLXI_6/XLXI_20/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_6/XLXI_20/XLXI_4 (XLXI_6/XLXI_20/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_6/XLXI_20/XLXI_3 (XLXI_6/XLXI_20/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_6/XLXI_20/XLXI_6 (XLXI_6/XLXI_20/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_6/XLXI_20/XLXI_8 (XLXI_6/XLXI_20/Qb_DUMMY)
+     NAND2:I0->O           5   0.124   0.966  XLXI_6/XLXI_20/XLXI_7 (XLXI_6/XLXN_31)
+     NAND3:I0->O           1   0.124   0.939  XLXI_6/XLXI_25/XLXI_1 (XLXI_6/XLXI_25/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_6/XLXI_25/XLXI_9 (XLXI_6/XLXI_25/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_6/XLXI_25/XLXI_4 (XLXI_6/XLXI_25/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_6/XLXI_25/XLXI_3 (XLXI_6/XLXI_25/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_6/XLXI_25/XLXI_6 (XLXI_6/XLXI_25/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_6/XLXI_25/XLXI_8 (XLXI_6/XLXI_25/Qb_DUMMY)
+     NAND2:I0->O           5   0.124   0.966  XLXI_6/XLXI_25/XLXI_7 (XLXI_6/XLXN_32)
+     NAND3:I0->O           1   0.124   0.939  XLXI_6/XLXI_21/XLXI_1 (XLXI_6/XLXI_21/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_6/XLXI_21/XLXI_9 (XLXI_6/XLXI_21/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_6/XLXI_21/XLXI_4 (XLXI_6/XLXI_21/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_6/XLXI_21/XLXI_3 (XLXI_6/XLXI_21/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_6/XLXI_21/XLXI_6 (XLXI_6/XLXI_21/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_6/XLXI_21/XLXI_8 (XLXI_6/XLXI_21/Qb_DUMMY)
+     NAND2:I0->O           5   0.124   0.966  XLXI_6/XLXI_21/XLXI_7 (XLXI_6/XLXN_33)
+     NAND3:I0->O           1   0.124   0.939  XLXI_6/XLXI_22/XLXI_1 (XLXI_6/XLXI_22/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_6/XLXI_22/XLXI_9 (XLXI_6/XLXI_22/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_6/XLXI_22/XLXI_4 (XLXI_6/XLXI_22/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_6/XLXI_22/XLXI_3 (XLXI_6/XLXI_22/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_6/XLXI_22/XLXI_6 (XLXI_6/XLXI_22/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_6/XLXI_22/XLXI_8 (XLXI_6/XLXI_22/Qb_DUMMY)
+     NAND2:I0->O           5   0.124   0.966  XLXI_6/XLXI_22/XLXI_7 (XLXI_6/XLXN_34)
+     NAND3:I0->O           1   0.124   0.939  XLXI_6/XLXI_23/XLXI_1 (XLXI_6/XLXI_23/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_6/XLXI_23/XLXI_9 (XLXI_6/XLXI_23/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_6/XLXI_23/XLXI_4 (XLXI_6/XLXI_23/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_6/XLXI_23/XLXI_3 (XLXI_6/XLXI_23/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_6/XLXI_23/XLXI_6 (XLXI_6/XLXI_23/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_6/XLXI_23/XLXI_8 (XLXI_6/XLXI_23/Qb_DUMMY)
+     NAND2:I0->O           5   0.124   0.966  XLXI_6/XLXI_23/XLXI_7 (XLXI_6/XLXN_35)
+     NAND3:I0->O           1   0.124   0.939  XLXI_6/XLXI_24/XLXI_1 (XLXI_6/XLXI_24/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_6/XLXI_24/XLXI_9 (XLXI_6/XLXI_24/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_6/XLXI_24/XLXI_4 (XLXI_6/XLXI_24/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_6/XLXI_24/XLXI_3 (XLXI_6/XLXI_24/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_6/XLXI_24/XLXI_6 (XLXI_6/XLXI_24/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_6/XLXI_24/XLXI_8 (XLXI_6/XLXI_24/Qb_DUMMY)
+     NAND2:I0->O           5   0.124   0.966  XLXI_6/XLXI_24/XLXI_7 (XLXI_6/XLXN_86)
+     NAND3:I0->O           1   0.124   0.939  XLXI_6/XLXI_28/XLXI_1 (XLXI_6/XLXI_28/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_6/XLXI_28/XLXI_9 (XLXI_6/XLXI_28/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_6/XLXI_28/XLXI_4 (XLXI_6/XLXI_28/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_6/XLXI_28/XLXI_3 (XLXI_6/XLXI_28/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_6/XLXI_28/XLXI_6 (XLXI_6/XLXI_28/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_6/XLXI_28/XLXI_8 (XLXI_6/XLXI_28/Qb_DUMMY)
+     NAND2:I0->O           5   0.124   0.966  XLXI_6/XLXI_28/XLXI_7 (XLXI_6/XLXN_87)
+     NAND3:I0->O           1   0.124   0.939  XLXI_6/XLXI_27/XLXI_1 (XLXI_6/XLXI_27/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_6/XLXI_27/XLXI_9 (XLXI_6/XLXI_27/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_6/XLXI_27/XLXI_4 (XLXI_6/XLXI_27/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_6/XLXI_27/XLXI_3 (XLXI_6/XLXI_27/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_6/XLXI_27/XLXI_6 (XLXI_6/XLXI_27/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_6/XLXI_27/XLXI_8 (XLXI_6/XLXI_27/Qb_DUMMY)
+     NAND2:I0->O           5   0.124   0.966  XLXI_6/XLXI_27/XLXI_7 (XLXN_14)
+     NAND3:I0->O           1   0.124   0.939  XLXI_1/XLXI_1 (XLXI_1/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_1/XLXI_9 (XLXI_1/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_1/XLXI_4 (XLXI_1/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_1/XLXI_3 (XLXI_1/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_1/XLXI_6 (XLXI_1/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_1/XLXI_8 (XLXI_1/Qb_DUMMY)
+     NAND2:I0->O           6   0.124   0.972  XLXI_1/XLXI_7 (Q0_OBUF)
+     NAND3:I0->O           1   0.124   0.939  XLXI_2/XLXI_1 (XLXI_2/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_2/XLXI_9 (XLXI_2/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_2/XLXI_4 (XLXI_2/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_2/XLXI_3 (XLXI_2/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_2/XLXI_6 (XLXI_2/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_2/XLXI_8 (XLXI_2/Qb_DUMMY)
+     NAND2:I0->O           6   0.124   0.972  XLXI_2/XLXI_7 (Q1_OBUF)
+     NAND3:I0->O           1   0.124   0.939  XLXI_3/XLXI_1 (XLXI_3/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_3/XLXI_9 (XLXI_3/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_3/XLXI_4 (XLXI_3/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_3/XLXI_3 (XLXI_3/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_3/XLXI_6 (XLXI_3/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_3/XLXI_8 (XLXI_3/Qb_DUMMY)
+     NAND2:I0->O           6   0.124   0.972  XLXI_3/XLXI_7 (Q2_OBUF)
+     NAND3:I0->O           1   0.124   0.939  XLXI_4/XLXI_1 (XLXI_4/XLXN_67)
+     OR2:I0->O             1   0.124   0.919  XLXI_4/XLXI_9 (XLXI_4/XLXN_55)
+     NAND2:I1->O           2   0.144   0.782  XLXI_4/XLXI_4 (XLXI_4/XLXN_56)
+     NAND3:I2->O           2   0.287   0.945  XLXI_4/XLXI_3 (XLXI_4/XLXN_58)
+     NAND2:I0->O           1   0.124   0.919  XLXI_4/XLXI_6 (XLXI_4/XLXN_59)
+     NAND3:I1->O           2   0.144   0.945  XLXI_4/XLXI_8 (XLXI_4/Qb_DUMMY)
+     NAND2:I0->O           3   0.124   0.413  XLXI_4/XLXI_7 (Q3_OBUF)
+     OBUF:I->O                 0.000          Q3_OBUF (Q3)
+    ----------------------------------------
+    Total                    232.643ns (33.761ns logic, 198.881ns route)
+                                       (14.5% logic, 85.5% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.88 secs
+ 
+--> 
+
+Total memory usage is 4616420 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :   31 (   0 filtered)
+
