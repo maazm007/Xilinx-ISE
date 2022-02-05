@@ -1,0 +1,4 @@
+verilog work "Master_Slave.vf"
+verilog work "Two_2_One_MUX.vf"
+verilog work "BlackBox.vf"
+verilog work "ODD_EVEN.vf"

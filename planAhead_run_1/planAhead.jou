@@ -1,29 +1,10 @@
 #-----------------------------------------------------------
 # PlanAhead v14.7 (64-bit)
 # Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
-# Start of session at: Sat Jan 29 21:25:10 2022
-# Process ID: 33664
+# Start of session at: Sat Feb 05 15:53:02 2022
+# Process ID: 48380
 # Log file: E:/Projects/Xilinx/Digital/planAhead_run_1/planAhead.log
 # Journal file: E:/Projects/Xilinx/Digital/planAhead_run_1/planAhead.jou
 #-----------------------------------------------------------
 start_gui
 source E:/Projects/Xilinx/Digital/pa.fromNetlist.tcl
-set_property iostandard LVCMOS33 [get_ports [list CLK]]
-set_property iostandard LVCMOS18 [get_ports [list Logic_1]]
-set_property iostandard LVCMOS33 [get_ports [list Logic_1]]
-set_property iostandard LVCMOS33 [get_ports [list PS]]
-set_property iostandard LVCMOS33 [get_ports [list Q]]
-set_property package_pin "" [get_ports [list  CLK]]
-startgroup
-set_property package_pin J15 [get_ports PS]
-endgroup
-startgroup
-set_property package_pin L16 [get_ports CLK]
-endgroup
-startgroup
-set_property package_pin M13 [get_ports Q]
-endgroup
-startgroup
-set_property package_pin H17 [get_ports Logic_1]
-endgroup
-save_constraints

@@ -1,0 +1,29 @@
+Command line:
+   ODD_EVEN_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55036
+
+Sat Feb 05 15:42:01 2022
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5149.57 Meg
+
+ Total Signals          : 283
+ Total Nets             : 84
+ Total Signal Drivers   : 72
+ Total Blocks           : 64
+ Total Primitive Blocks : 58
+ Total Processes        : 73
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 164
+Total Line Count : 25
+
+ Total Simulation Time: 0.203125 sec
+
+ Current Memory Usage: 4677.71 Meg
+
+Sat Feb 05 15:44:13 2022
+

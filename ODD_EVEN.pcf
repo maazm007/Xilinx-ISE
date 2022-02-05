@@ -1,0 +1,14 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat Feb 05 16:08:59 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Q0" LOCATE = SITE "H17" LEVEL 1;
+COMP "Q1" LOCATE = SITE "K15" LEVEL 1;
+COMP "SEL_Q0" LOCATE = SITE "L16" LEVEL 1;
+COMP "Q2" LOCATE = SITE "J13" LEVEL 1;
+COMP "Q3" LOCATE = SITE "N14" LEVEL 1;
+COMP "CLEAR" LOCATE = SITE "J15" LEVEL 1;
+COMP "CLOCK" LOCATE = SITE "E3" LEVEL 1;
+SCHEMATIC END;
+

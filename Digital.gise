@@ -22,113 +22,60 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Digital.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="BlackBox.bld"/>
-    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="BlackBox.cmd_log"/>
-    <file xil_pn:fileType="FILE_JHD" xil_pn:name="BlackBox.jhd"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="BlackBox.lso"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="BlackBox.ncd" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="BlackBox.ngc"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="BlackBox.ngd"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="BlackBox.ngr"/>
-    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="BlackBox.pad"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="BlackBox.par" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="BlackBox.pcf" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="BlackBox.prj"/>
-    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="BlackBox.ptwx"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="BlackBox.stx"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="BlackBox.syr"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="BlackBox.twr" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="BlackBox.twx" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="BlackBox.unroutes" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="BlackBox.ut" xil_pn:subbranch="FPGAConfiguration"/>
-    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="BlackBox.vf">
-      <branch xil_pn:name="Implementation"/>
-      <branch xil_pn:name="BehavioralSim"/>
-    </file>
-    <file xil_pn:fileType="FILE_XPI" xil_pn:name="BlackBox.xpi"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="BlackBox.xst"/>
-    <file xil_pn:fileType="FILE_HTML" xil_pn:name="BlackBox_envsettings.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="BlackBox.vf"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="BlackBox_guide.ncd" xil_pn:origination="imported"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="BlackBox_isim_beh.exe"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="BlackBox_map.map" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="BlackBox_map.mrp" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="BlackBox_map.ncd" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="BlackBox_map.ngm" xil_pn:subbranch="Map"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="BlackBox_map.xrpt"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="BlackBox_ngdbuild.xrpt"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="BlackBox_pad.csv" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="BlackBox_pad.txt" xil_pn:subbranch="Par"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="BlackBox_par.xrpt"/>
-    <file xil_pn:fileType="FILE_HTML" xil_pn:name="BlackBox_summary.html"/>
-    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="BlackBox_summary.xml"/>
-    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="BlackBox_usage.xml"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="BlackBox_xst.xrpt"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Couter_Task.bld"/>
-    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Couter_Task.cmd_log"/>
-    <file xil_pn:fileType="FILE_JHD" xil_pn:name="Couter_Task.jhd"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Couter_Task.lso"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Couter_Task.ncd" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Couter_Task.ngc"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Couter_Task.ngd"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Couter_Task.ngr"/>
-    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Couter_Task.pad"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Couter_Task.par" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Couter_Task.pcf" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Couter_Task.prj"/>
-    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="Couter_Task.ptwx"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Couter_Task.stx"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Couter_Task.syr"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Couter_Task.twr" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Couter_Task.twx" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Couter_Task.unroutes" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="Couter_Task.ut" xil_pn:subbranch="FPGAConfiguration"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="Couter_Task.vf"/>
-    <file xil_pn:fileType="FILE_XPI" xil_pn:name="Couter_Task.xpi"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Couter_Task.xst"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="Couter_Task_guide.ncd" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Couter_Task_map.map" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Couter_Task_map.mrp" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Couter_Task_map.ncd" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Couter_Task_map.ngm" xil_pn:subbranch="Map"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Couter_Task_map.xrpt"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Couter_Task_ngdbuild.xrpt"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Couter_Task_pad.csv" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Couter_Task_pad.txt" xil_pn:subbranch="Par"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Couter_Task_par.xrpt"/>
-    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Couter_Task_summary.html"/>
-    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Couter_Task_summary.xml"/>
-    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Couter_Task_usage.xml"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Couter_Task_xst.xrpt"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="Four_Bit_Down_Counter.vf"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Four_Bit_Down_Counter_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Four_Bit_UP_Counter.cmd_log"/>
-    <file xil_pn:fileType="FILE_JHD" xil_pn:name="Four_Bit_UP_Counter.jhd"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Four_Bit_UP_Counter.lso"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Four_Bit_UP_Counter.ngc"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Four_Bit_UP_Counter.ngr"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Four_Bit_UP_Counter.prj"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Four_Bit_UP_Counter.stx"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Four_Bit_UP_Counter.syr"/>
-    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="Four_Bit_UP_Counter.vf">
-      <branch xil_pn:name="Implementation"/>
-      <branch xil_pn:name="BehavioralSim"/>
-    </file>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Four_Bit_UP_Counter.xst"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Four_Bit_UP_Counter_beh.prj"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Four_Bit_UP_Counter_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Four_Bit_UP_Counter_isim_beh.wdb"/>
-    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Four_Bit_UP_Counter_summary.html"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Four_Bit_UP_Counter_xst.xrpt"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="JK_Latch.vf"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="JK_Latch_Syn.vf"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="JK_Latch_Syn_isim_beh.exe"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="JK_Latch_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="Master_Slave.vf">
       <branch xil_pn:name="Implementation"/>
       <branch xil_pn:name="BehavioralSim"/>
     </file>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="Master_Slave_posedge.vf"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Master_Slave_posedge_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="ODD_EVEN.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="ODD_EVEN.cmd_log"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="ODD_EVEN.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="ODD_EVEN.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="ODD_EVEN.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ODD_EVEN.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="ODD_EVEN.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="ODD_EVEN.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="ODD_EVEN.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="ODD_EVEN.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="ODD_EVEN.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ODD_EVEN.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="ODD_EVEN.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="ODD_EVEN.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ODD_EVEN.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="ODD_EVEN.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="ODD_EVEN.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="ODD_EVEN.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="ODD_EVEN.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="ODD_EVEN.vf">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="ODD_EVEN.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ODD_EVEN.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ODD_EVEN_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ODD_EVEN_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="ODD_EVEN_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ODD_EVEN_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="ODD_EVEN_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="ODD_EVEN_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="ODD_EVEN_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="ODD_EVEN_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="ODD_EVEN_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ODD_EVEN_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ODD_EVEN_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="ODD_EVEN_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="ODD_EVEN_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ODD_EVEN_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ODD_EVEN_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="ODD_EVEN_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="ODD_EVEN_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ODD_EVEN_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="Two_2_One_MUX.vf">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
@@ -136,18 +83,17 @@
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="blackbox.bgn" xil_pn:subbranch="FPGAConfiguration"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="blackbox.bit" xil_pn:subbranch="FPGAConfiguration"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="blackbox.drc" xil_pn:subbranch="FPGAConfiguration"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="couter_task.bgn" xil_pn:subbranch="FPGAConfiguration"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="couter_task.bit" xil_pn:subbranch="FPGAConfiguration"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="couter_task.drc" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="odd_even.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="odd_even.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="odd_even.drc" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_3"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_4"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
@@ -157,187 +103,176 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1643456869" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1643456868">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1643365527" xil_pn:in_ck="5266445219942101" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1643365527">
+    <transform xil_pn:end_ts="1644055858" xil_pn:in_ck="5266445219942101" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1644055858">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="not_gate.v"/>
     </transform>
-    <transform xil_pn:end_ts="1643519034" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="7610362543429391341" xil_pn:start_ts="1643519034">
+    <transform xil_pn:end_ts="1644055858" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4713541300351818228" xil_pn:start_ts="1644055858">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1643519036" xil_pn:in_ck="9023856514799702332" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-7354128662279226741" xil_pn:start_ts="1643519034">
+    <transform xil_pn:end_ts="1644055910" xil_pn:in_ck="-3404884550271030665" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="4195835370154525458" xil_pn:start_ts="1644055908">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
-      <outfile xil_pn:name="BlackBox.vf"/>
-      <outfile xil_pn:name="Four_Bit_Down_Counter.vf"/>
-      <outfile xil_pn:name="Four_Bit_UP_Counter.vf"/>
-      <outfile xil_pn:name="JK_Latch.vf"/>
-      <outfile xil_pn:name="JK_Latch_Syn.vf"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Master_Slave.vf"/>
-      <outfile xil_pn:name="Master_Slave_posedge.vf"/>
+      <outfile xil_pn:name="ODD_EVEN.vf"/>
+      <outfile xil_pn:name="Two_2_One_MUX.vf"/>
     </transform>
-    <transform xil_pn:end_ts="1643480144" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-4442809753486712991" xil_pn:start_ts="1643480144">
+    <transform xil_pn:end_ts="1644055860" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="8974275354685327487" xil_pn:start_ts="1644055860">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1643519036" xil_pn:in_ck="-4976867832305541543" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1643519036">
+    <transform xil_pn:end_ts="1644055910" xil_pn:in_ck="1577350729853755810" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1644055910">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <outfile xil_pn:name="BlackBox.vf"/>
-      <outfile xil_pn:name="Four_Bit_Down_Counter.vf"/>
-      <outfile xil_pn:name="Four_Bit_UP_Counter.vf"/>
-      <outfile xil_pn:name="JK_Latch.vf"/>
-      <outfile xil_pn:name="JK_Latch_Syn.vf"/>
-      <outfile xil_pn:name="Master_Slave.vf"/>
-      <outfile xil_pn:name="Master_Slave_posedge.vf"/>
-      <outfile xil_pn:name="not_gate.v"/>
-    </transform>
-    <transform xil_pn:end_ts="1643519039" xil_pn:in_ck="-4976867832305541543" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6495014129440675152" xil_pn:start_ts="1643519036">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Four_Bit_UP_Counter_beh.prj"/>
-      <outfile xil_pn:name="Four_Bit_UP_Counter_isim_beh.exe"/>
+      <outfile xil_pn:name="Master_Slave.vf"/>
+      <outfile xil_pn:name="ODD_EVEN.vf"/>
+      <outfile xil_pn:name="Two_2_One_MUX.vf"/>
+      <outfile xil_pn:name="not_gate.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1644055913" xil_pn:in_ck="1577350729853755810" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="9003392952730090142" xil_pn:start_ts="1644055910">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ODD_EVEN_beh.prj"/>
+      <outfile xil_pn:name="ODD_EVEN_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1643519040" xil_pn:in_ck="-6937498816558211278" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-6094010400654388365" xil_pn:start_ts="1643519039">
+    <transform xil_pn:end_ts="1644055913" xil_pn:in_ck="-5401579711176486125" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-896908233037890431" xil_pn:start_ts="1644055913">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Four_Bit_UP_Counter_isim_beh.wdb"/>
+      <outfile xil_pn:name="ODD_EVEN_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
-    <transform xil_pn:end_ts="1643470683" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1643470683">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1643520145" xil_pn:in_ck="9023856514799702332" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="1842280473775971826" xil_pn:start_ts="1643520143">
+    <transform xil_pn:end_ts="1644056825" xil_pn:in_ck="-3404884550271030665" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-7763387773598598574" xil_pn:start_ts="1644056822">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="BlackBox.vf"/>
-      <outfile xil_pn:name="Couter_Task.vf"/>
       <outfile xil_pn:name="Master_Slave.vf"/>
+      <outfile xil_pn:name="ODD_EVEN.vf"/>
+      <outfile xil_pn:name="Two_2_One_MUX.vf"/>
     </transform>
-    <transform xil_pn:end_ts="1643520145" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="8974275354685327487" xil_pn:start_ts="1643520145">
+    <transform xil_pn:end_ts="1644056825" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-3703040648259592257" xil_pn:start_ts="1644056825">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1643520145" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1643520145">
+    <transform xil_pn:end_ts="1644056825" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1644056825">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1643520145" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="234211371833455188" xil_pn:start_ts="1643520145">
+    <transform xil_pn:end_ts="1644056825" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="4713541300351818228" xil_pn:start_ts="1644056825">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1643520145" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1643520145">
+    <transform xil_pn:end_ts="1644056825" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1644056825">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1643520145" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-686503142617676087" xil_pn:start_ts="1643520145">
+    <transform xil_pn:end_ts="1644056825" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="1600700502508237385" xil_pn:start_ts="1644056825">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1643520159" xil_pn:in_ck="218461413969526410" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-6700851181700496267" xil_pn:start_ts="1643520145">
+    <transform xil_pn:end_ts="1644056837" xil_pn:in_ck="-1423455164152270446" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="2328956192253271541" xil_pn:start_ts="1644056825">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="BlackBox.ngr"/>
-      <outfile xil_pn:name="Couter_Task.jhd"/>
-      <outfile xil_pn:name="Couter_Task.lso"/>
-      <outfile xil_pn:name="Couter_Task.ngc"/>
-      <outfile xil_pn:name="Couter_Task.ngr"/>
-      <outfile xil_pn:name="Couter_Task.prj"/>
-      <outfile xil_pn:name="Couter_Task.stx"/>
-      <outfile xil_pn:name="Couter_Task.syr"/>
-      <outfile xil_pn:name="Couter_Task.xst"/>
-      <outfile xil_pn:name="Couter_Task_xst.xrpt"/>
+      <outfile xil_pn:name="ODD_EVEN.jhd"/>
+      <outfile xil_pn:name="ODD_EVEN.lso"/>
+      <outfile xil_pn:name="ODD_EVEN.ngc"/>
+      <outfile xil_pn:name="ODD_EVEN.ngr"/>
+      <outfile xil_pn:name="ODD_EVEN.prj"/>
+      <outfile xil_pn:name="ODD_EVEN.stx"/>
+      <outfile xil_pn:name="ODD_EVEN.syr"/>
+      <outfile xil_pn:name="ODD_EVEN.xst"/>
+      <outfile xil_pn:name="ODD_EVEN_beh.prj"/>
+      <outfile xil_pn:name="ODD_EVEN_xst.xrpt"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
-    <transform xil_pn:end_ts="1643521315" xil_pn:in_ck="8225722240399338978" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-5879266162887696794" xil_pn:start_ts="1643521315">
+    <transform xil_pn:end_ts="1644057487" xil_pn:in_ck="2659045889557146498" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="4784892598223560198" xil_pn:start_ts="1644057487">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1643521325" xil_pn:in_ck="3604804268975988475" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-663289003771453744" xil_pn:start_ts="1643521315">
+    <transform xil_pn:end_ts="1644057502" xil_pn:in_ck="-1445999177889274100" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="7729297780872929968" xil_pn:start_ts="1644057487">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Couter_Task.bld"/>
-      <outfile xil_pn:name="Couter_Task.ngd"/>
-      <outfile xil_pn:name="Couter_Task_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="ODD_EVEN.bld"/>
+      <outfile xil_pn:name="ODD_EVEN.ngd"/>
+      <outfile xil_pn:name="ODD_EVEN_ngdbuild.xrpt"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1643521370" xil_pn:in_ck="-5064608862156601830" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="-7188367874928765557" xil_pn:start_ts="1643521325">
+    <transform xil_pn:end_ts="1644057546" xil_pn:in_ck="221890337063710861" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="-7188367874928765557" xil_pn:start_ts="1644057502">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Couter_Task.pcf"/>
-      <outfile xil_pn:name="Couter_Task_map.map"/>
-      <outfile xil_pn:name="Couter_Task_map.mrp"/>
-      <outfile xil_pn:name="Couter_Task_map.ncd"/>
-      <outfile xil_pn:name="Couter_Task_map.ngm"/>
-      <outfile xil_pn:name="Couter_Task_map.xrpt"/>
-      <outfile xil_pn:name="Couter_Task_summary.xml"/>
-      <outfile xil_pn:name="Couter_Task_usage.xml"/>
+      <outfile xil_pn:name="ODD_EVEN.pcf"/>
+      <outfile xil_pn:name="ODD_EVEN_map.map"/>
+      <outfile xil_pn:name="ODD_EVEN_map.mrp"/>
+      <outfile xil_pn:name="ODD_EVEN_map.ncd"/>
+      <outfile xil_pn:name="ODD_EVEN_map.ngm"/>
+      <outfile xil_pn:name="ODD_EVEN_map.xrpt"/>
+      <outfile xil_pn:name="ODD_EVEN_summary.xml"/>
+      <outfile xil_pn:name="ODD_EVEN_usage.xml"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1643521413" xil_pn:in_ck="8624593186665544684" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="2516432636991085863" xil_pn:start_ts="1643521370">
+    <transform xil_pn:end_ts="1644057581" xil_pn:in_ck="4655591656376454566" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="2516432636991085863" xil_pn:start_ts="1644057546">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Couter_Task.ncd"/>
-      <outfile xil_pn:name="Couter_Task.pad"/>
-      <outfile xil_pn:name="Couter_Task.par"/>
-      <outfile xil_pn:name="Couter_Task.ptwx"/>
-      <outfile xil_pn:name="Couter_Task.unroutes"/>
-      <outfile xil_pn:name="Couter_Task.xpi"/>
-      <outfile xil_pn:name="Couter_Task_pad.csv"/>
-      <outfile xil_pn:name="Couter_Task_pad.txt"/>
-      <outfile xil_pn:name="Couter_Task_par.xrpt"/>
+      <outfile xil_pn:name="ODD_EVEN.ncd"/>
+      <outfile xil_pn:name="ODD_EVEN.pad"/>
+      <outfile xil_pn:name="ODD_EVEN.par"/>
+      <outfile xil_pn:name="ODD_EVEN.ptwx"/>
+      <outfile xil_pn:name="ODD_EVEN.unroutes"/>
+      <outfile xil_pn:name="ODD_EVEN.xpi"/>
+      <outfile xil_pn:name="ODD_EVEN_pad.csv"/>
+      <outfile xil_pn:name="ODD_EVEN_pad.txt"/>
+      <outfile xil_pn:name="ODD_EVEN_par.xrpt"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1643521459" xil_pn:in_ck="-4514979069585844880" xil_pn:name="TRANEXT_bitFile_virtex7" xil_pn:prop_ck="306664139534459597" xil_pn:start_ts="1643521427">
+    <transform xil_pn:end_ts="1644058126" xil_pn:in_ck="4100266429873897735" xil_pn:name="TRANEXT_bitFile_virtex7" xil_pn:prop_ck="306664139534459597" xil_pn:start_ts="1644058094">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Couter_Task.ut"/>
+      <outfile xil_pn:name="ODD_EVEN.ut"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
-      <outfile xil_pn:name="couter_task.bgn"/>
-      <outfile xil_pn:name="couter_task.bit"/>
-      <outfile xil_pn:name="couter_task.drc"/>
+      <outfile xil_pn:name="odd_even.bgn"/>
+      <outfile xil_pn:name="odd_even.bit"/>
+      <outfile xil_pn:name="odd_even.drc"/>
       <outfile xil_pn:name="usage_statistics_webtalk.html"/>
       <outfile xil_pn:name="webtalk.log"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1643521413" xil_pn:in_ck="1263445239747721362" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416183" xil_pn:start_ts="1643521395">
+    <transform xil_pn:end_ts="1644057581" xil_pn:in_ck="1421403247784315401" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416183" xil_pn:start_ts="1644057566">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Couter_Task.twr"/>
-      <outfile xil_pn:name="Couter_Task.twx"/>
+      <outfile xil_pn:name="ODD_EVEN.twr"/>
+      <outfile xil_pn:name="ODD_EVEN.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
     </transform>
   </transforms>

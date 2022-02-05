@@ -1,1 +1,0 @@
-xst -intstyle ise -ifn "E:/Projects/Xilinx/Digital/Four_Bit_UP_Counter.xst" -ofn "E:/Projects/Xilinx/Digital/Four_Bit_UP_Counter.syr" 

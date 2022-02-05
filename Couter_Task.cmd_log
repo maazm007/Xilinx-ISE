@@ -1,6 +1,0 @@
-xst -intstyle ise -ifn "E:/Projects/Xilinx/Digital/Couter_Task.xst" -ofn "E:/Projects/Xilinx/Digital/Couter_Task.syr" 
-ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Couter_Task.ucf -p xc7a100t-csg324-1 Couter_Task.ngc Couter_Task.ngd  
-map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Couter_Task_map.ncd Couter_Task.ngd Couter_Task.pcf 
-par -w -intstyle ise -ol high -mt off Couter_Task_map.ncd Couter_Task.ncd Couter_Task.pcf 
-trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Couter_Task.twx Couter_Task.ncd -o Couter_Task.twr Couter_Task.pcf -ucf Couter_Task.ucf 
-bitgen -intstyle ise -f Couter_Task.ut Couter_Task.ncd 

@@ -1,0 +1,20 @@
+
+# PlanAhead Generated IO constraints 
+
+NET "CLOCK" IOSTANDARD = LVCMOS33;
+NET "PS" IOSTANDARD = LVCMOS33;
+NET "Q0" IOSTANDARD = LVCMOS33; //Q0 is my LSB
+NET "Q1" IOSTANDARD = LVCMOS33;
+NET "Q2" IOSTANDARD = LVCMOS33;
+NET "Q3" IOSTANDARD = LVCMOS33; //Q3 is my MSB
+
+# PlanAhead Generated physical constraints 
+
+NET "PS" LOC = J15; // PS works as my Input - Previous_State
+NET "Q0" LOC = H17; //Q0 is my LSB
+NET "Q1" LOC = K15;
+NET "Q2" LOC = J13;
+NET "Q3" LOC = N14; //Q3 is my MSB
+NET "CLOCK" LOC = E3;
+
+//Q0, Q1, Q2, Q3 works as my Output

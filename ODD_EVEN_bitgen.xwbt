@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Projects\Xilinx\Digital\ODD_EVEN.ncd
+OUTFILE=E:\Projects\Xilinx\Digital\ODD_EVEN.bit
+FAMILY=Artix7
+PART=xc7a100t-1csg324
+WORKINGDIR=E:\Projects\Xilinx\Digital
+LICENSE=WebPack
+USER_INFO=211099931_1777517190_0_174

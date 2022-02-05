@@ -1,0 +1,20 @@
+
+# PlanAhead Generated IO constraints 
+
+NET "CLEAR" IOSTANDARD = LVCMOS33;
+NET "CLOCK" IOSTANDARD = LVCMOS33;
+NET "Q0" IOSTANDARD = LVCMOS33;
+NET "Q1" IOSTANDARD = LVCMOS33;
+NET "Q2" IOSTANDARD = LVCMOS33;
+NET "Q3" IOSTANDARD = LVCMOS33;
+NET "SEL_Q0" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "CLEAR" LOC = J15; //Clear is use to store previous state
+NET "CLOCK" LOC = E3;
+NET "Q0" LOC = H17; //Q0 is my LSB which will be decided by MUX
+NET "Q1" LOC = K15;
+NET "Q2" LOC = J13;
+NET "SEL_Q0" LOC = L16; //Select 0 for EVEN Counter and 1 for ODD Counter
+NET "Q3" LOC = N14; //Q3 is my MSB
