@@ -1,11 +1,10 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/Projects/Xilinx/Digital/ODD_EVEN_isim_beh.exe -prj E:/Projects/Xilinx/Digital/ODD_EVEN_beh.prj work.ODD_EVEN work.glbl 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/Projects/Xilinx/Digital/MOD_10_Counter_isim_beh.exe -prj E:/Projects/Xilinx/Digital/MOD_10_Counter_beh.prj work.MOD_10_Counter work.glbl 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Analyzing Verilog file "E:/Projects/Xilinx/Digital/Two_2_One_MUX.vf" into library work
 Analyzing Verilog file "E:/Projects/Xilinx/Digital/Master_Slave.vf" into library work
-Analyzing Verilog file "E:/Projects/Xilinx/Digital/ODD_EVEN.vf" into library work
+Analyzing Verilog file "E:/Projects/Xilinx/Digital/MOD_10_Counter.vf" into library work
 Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
@@ -13,15 +12,14 @@ Compiling module NAND3
 Compiling module NAND2
 Compiling module OR2
 Compiling module INV
-Compiling module Master_Slave_MUSER_ODD_EVEN
-Compiling module VCC
+Compiling module Master_Slave_MUSER_MOD_10_Counte...
 Compiling module AND2
-Compiling module Two_2_One_MUX_MUSER_ODD_EVEN
-Compiling module ODD_EVEN
+Compiling module VCC
+Compiling module MOD_10_Counter
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
-Compiled 10 Verilog Units
-Built simulation executable E:/Projects/Xilinx/Digital/ODD_EVEN_isim_beh.exe
-Fuse Memory Usage: 27920 KB
-Fuse CPU Usage: 358 ms
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 9 Verilog Units
+Built simulation executable E:/Projects/Xilinx/Digital/MOD_10_Counter_isim_beh.exe
+Fuse Memory Usage: 27856 KB
+Fuse CPU Usage: 312 ms

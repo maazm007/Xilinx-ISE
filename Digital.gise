@@ -25,6 +25,10 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="BlackBox.vf"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="BlackBox_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="Couter_Task_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="MOD_10_Counter.vf"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MOD_10_Counter_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="MOD_10_Counter_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="MOD_10_Counter_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="Master_Slave.vf">
       <branch xil_pn:name="Implementation"/>
       <branch xil_pn:name="BehavioralSim"/>
@@ -54,11 +58,9 @@
     </file>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="ODD_EVEN.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ODD_EVEN.xst"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ODD_EVEN_beh.prj"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="ODD_EVEN_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="ODD_EVEN_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ODD_EVEN_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="ODD_EVEN_isim_beh.wdb"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="ODD_EVEN_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="ODD_EVEN_map.mrp" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="ODD_EVEN_map.ncd" xil_pn:subbranch="Map"/>
@@ -103,72 +105,72 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1644067501" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1644067500">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
     <transform xil_pn:end_ts="1644055858" xil_pn:in_ck="5266445219942101" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1644055858">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="not_gate.v"/>
     </transform>
-    <transform xil_pn:end_ts="1644055858" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4713541300351818228" xil_pn:start_ts="1644055858">
+    <transform xil_pn:end_ts="1644067501" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-8278794708137568849" xil_pn:start_ts="1644067501">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1644055910" xil_pn:in_ck="-3404884550271030665" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="4195835370154525458" xil_pn:start_ts="1644055908">
+    <transform xil_pn:end_ts="1644067665" xil_pn:in_ck="8105969001455940642" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1522257950174490445" xil_pn:start_ts="1644067663">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="MOD_10_Counter.vf"/>
       <outfile xil_pn:name="Master_Slave.vf"/>
       <outfile xil_pn:name="ODD_EVEN.vf"/>
       <outfile xil_pn:name="Two_2_One_MUX.vf"/>
     </transform>
-    <transform xil_pn:end_ts="1644055860" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="8974275354685327487" xil_pn:start_ts="1644055860">
+    <transform xil_pn:end_ts="1644067503" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-3703040648259592257" xil_pn:start_ts="1644067503">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1644055910" xil_pn:in_ck="1577350729853755810" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1644055910">
+    <transform xil_pn:end_ts="1644067665" xil_pn:in_ck="-1744058022068233461" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1644067665">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="MOD_10_Counter.vf"/>
       <outfile xil_pn:name="Master_Slave.vf"/>
       <outfile xil_pn:name="ODD_EVEN.vf"/>
       <outfile xil_pn:name="Two_2_One_MUX.vf"/>
       <outfile xil_pn:name="not_gate.v"/>
     </transform>
-    <transform xil_pn:end_ts="1644055913" xil_pn:in_ck="1577350729853755810" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="9003392952730090142" xil_pn:start_ts="1644055910">
+    <transform xil_pn:end_ts="1644067667" xil_pn:in_ck="-1744058022068233461" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4305823731717746164" xil_pn:start_ts="1644067665">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="ODD_EVEN_beh.prj"/>
-      <outfile xil_pn:name="ODD_EVEN_isim_beh.exe"/>
+      <outfile xil_pn:name="MOD_10_Counter_beh.prj"/>
+      <outfile xil_pn:name="MOD_10_Counter_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1644055913" xil_pn:in_ck="-5401579711176486125" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-896908233037890431" xil_pn:start_ts="1644055913">
+    <transform xil_pn:end_ts="1644067668" xil_pn:in_ck="-4068326912973516223" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3946625789893067767" xil_pn:start_ts="1644067667">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="ODD_EVEN_isim_beh.wdb"/>
+      <outfile xil_pn:name="MOD_10_Counter_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
     <transform xil_pn:end_ts="1644056825" xil_pn:in_ck="-3404884550271030665" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-7763387773598598574" xil_pn:start_ts="1644056822">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="BlackBox.vf"/>
       <outfile xil_pn:name="Master_Slave.vf"/>
       <outfile xil_pn:name="ODD_EVEN.vf"/>
@@ -189,17 +191,21 @@
     <transform xil_pn:end_ts="1644056825" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1644056825">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
     <transform xil_pn:end_ts="1644056825" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="1600700502508237385" xil_pn:start_ts="1644056825">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
     <transform xil_pn:end_ts="1644056837" xil_pn:in_ck="-1423455164152270446" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="2328956192253271541" xil_pn:start_ts="1644056825">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
       <outfile xil_pn:name="ODD_EVEN.jhd"/>
       <outfile xil_pn:name="ODD_EVEN.lso"/>
       <outfile xil_pn:name="ODD_EVEN.ngc"/>
@@ -208,7 +214,6 @@
       <outfile xil_pn:name="ODD_EVEN.stx"/>
       <outfile xil_pn:name="ODD_EVEN.syr"/>
       <outfile xil_pn:name="ODD_EVEN.xst"/>
-      <outfile xil_pn:name="ODD_EVEN_beh.prj"/>
       <outfile xil_pn:name="ODD_EVEN_xst.xrpt"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
@@ -217,10 +222,12 @@
     <transform xil_pn:end_ts="1644057487" xil_pn:in_ck="2659045889557146498" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="4784892598223560198" xil_pn:start_ts="1644057487">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
     <transform xil_pn:end_ts="1644057502" xil_pn:in_ck="-1445999177889274100" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="7729297780872929968" xil_pn:start_ts="1644057487">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="ODD_EVEN.bld"/>
       <outfile xil_pn:name="ODD_EVEN.ngd"/>
       <outfile xil_pn:name="ODD_EVEN_ngdbuild.xrpt"/>
@@ -230,6 +237,7 @@
     <transform xil_pn:end_ts="1644057546" xil_pn:in_ck="221890337063710861" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="-7188367874928765557" xil_pn:start_ts="1644057502">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="ODD_EVEN.pcf"/>
@@ -245,6 +253,7 @@
     <transform xil_pn:end_ts="1644057581" xil_pn:in_ck="4655591656376454566" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="2516432636991085863" xil_pn:start_ts="1644057546">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="ODD_EVEN.ncd"/>
       <outfile xil_pn:name="ODD_EVEN.pad"/>
       <outfile xil_pn:name="ODD_EVEN.par"/>
@@ -259,6 +268,7 @@
     <transform xil_pn:end_ts="1644058126" xil_pn:in_ck="4100266429873897735" xil_pn:name="TRANEXT_bitFile_virtex7" xil_pn:prop_ck="306664139534459597" xil_pn:start_ts="1644058094">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="ODD_EVEN.ut"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="odd_even.bgn"/>
@@ -271,6 +281,7 @@
     <transform xil_pn:end_ts="1644057581" xil_pn:in_ck="1421403247784315401" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416183" xil_pn:start_ts="1644057566">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="ODD_EVEN.twr"/>
       <outfile xil_pn:name="ODD_EVEN.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>

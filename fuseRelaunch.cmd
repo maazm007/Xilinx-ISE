@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/Projects/Xilinx/Digital/ODD_EVEN_isim_beh.exe" -prj "E:/Projects/Xilinx/Digital/ODD_EVEN_beh.prj" "work.ODD_EVEN" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/Projects/Xilinx/Digital/MOD_10_Counter_isim_beh.exe" -prj "E:/Projects/Xilinx/Digital/MOD_10_Counter_beh.prj" "work.MOD_10_Counter" "work.glbl" 

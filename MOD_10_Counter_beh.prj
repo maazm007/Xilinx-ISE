@@ -1,4 +1,3 @@
-verilog work "Two_2_One_MUX.vf"
 verilog work "Master_Slave.vf"
-verilog work "ODD_EVEN.vf"
+verilog work "MOD_10_Counter.vf"
 verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
