@@ -23,10 +23,7 @@
         <signal name="XLXN_54" />
         <signal name="CLOCK" />
         <signal name="XLXN_63" />
-        <signal name="XLXN_64" />
-        <signal name="XLXN_65" />
         <signal name="XLXN_66" />
-        <signal name="XLXN_67" />
         <port polarity="Input" name="X" />
         <port polarity="Input" name="Y" />
         <port polarity="Input" name="PS" />

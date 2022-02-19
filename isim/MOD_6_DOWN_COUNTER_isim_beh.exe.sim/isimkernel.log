@@ -1,0 +1,29 @@
+Command line:
+   MOD_6_DOWN_COUNTER_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56287
+
+Sat Feb 19 09:37:13 2022
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5149.6 Meg
+
+ Total Signals          : 216
+ Total Nets             : 69
+ Total Signal Drivers   : 58
+ Total Blocks           : 49
+ Total Primitive Blocks : 45
+ Total Processes        : 59
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 149
+Total Line Count : 23
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 5464.17 Meg
+
+Sat Feb 19 09:38:08 2022
+

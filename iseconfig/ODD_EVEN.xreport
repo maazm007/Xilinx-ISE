@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-02-05T18:09:45</DateModified>
+  <DateModified>2022-02-19T22:54:30</DateModified>
   <ModuleName>ODD_EVEN</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>E:/Projects/Xilinx/Digital/iseconfig/ODD_EVEN.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/Projects/Xilinx/Digital</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>E:/Projects/Xilinx/Digital\</ImplementationReportsDirectory>
   <DateInitialized>2022-02-05T18:09:44</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

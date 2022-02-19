@@ -1,0 +1,7 @@
+MODULE MOD_6_DOWN_COUNTER
+	SUBMODULE Master_Slave_posedge
+		INSTANCE XLXI_20
+	SUBMODULE Master_Slave_posedge
+		INSTANCE XLXI_21
+	SUBMODULE Master_Slave_posedge
+		INSTANCE XLXI_22

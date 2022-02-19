@@ -1,0 +1,29 @@
+Command line:
+   PIPO_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  62414
+
+Sat Feb 19 16:23:58 2022
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5150.22 Meg
+
+ Total Signals          : 275
+ Total Nets             : 79
+ Total Signal Drivers   : 65
+ Total Blocks           : 62
+ Total Primitive Blocks : 53
+ Total Processes        : 66
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 159
+Total Line Count : 22
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 4992.93 Meg
+
+Sat Feb 19 16:25:20 2022
+

@@ -2,14 +2,14 @@ Command line:
    T_FF_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  54805
+     -socket  62382
 
-Sat Feb 05 13:31:35 2022
+Sun Feb 06 22:43:22 2022
 
 
- Elaboration Time: 0.03125 sec
+ Elaboration Time: 0.09375 sec
 
- Current Memory Usage: 5149.62 Meg
+ Current Memory Usage: 5149.58 Meg
 
  Total Signals          : 74
  Total Nets             : 30
@@ -21,9 +21,9 @@ Sat Feb 05 13:31:35 2022
  Total Scalar Nets and Variables : 110
 Total Line Count : 16
 
- Total Simulation Time: 0.109375 sec
+ Total Simulation Time: 0.203125 sec
 
- Current Memory Usage: 4677.76 Meg
+ Current Memory Usage: 4677.72 Meg
 
-Sat Feb 05 13:44:46 2022
+Sun Feb 06 22:47:32 2022
 

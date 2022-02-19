@@ -25,14 +25,20 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="BlackBox.vf"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="BlackBox_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="Couter_Task_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="D_FF.vf"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="Four_Bit_Down_Counter.vf"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Four_Bit_Down_Counter_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="MOD_10_Counter.vf"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MOD_10_Counter_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="MOD_10_Counter_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="MOD_10_Counter_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="MOD_13_UP_COUNTER.vf"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="MOD_13_UP_COUNTER_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="MOD_6_DOWN_COUNTER.vf"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="MOD_6_DOWN_COUNTER_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="Master_Slave.vf">
       <branch xil_pn:name="Implementation"/>
       <branch xil_pn:name="BehavioralSim"/>
     </file>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="Master_Slave_posedge.vf"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="ODD_EVEN.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="ODD_EVEN.cmd_log"/>
     <file xil_pn:fileType="FILE_JHD" xil_pn:name="ODD_EVEN.jhd"/>
@@ -74,6 +80,18 @@
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="ODD_EVEN_summary.xml"/>
     <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="ODD_EVEN_usage.xml"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ODD_EVEN_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="PIPO.vf"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="PIPO_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="PISO.vf"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PISO_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="PISO_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="PISO_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="SIPO.vf"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SIPO_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="SISO.vf"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SISO_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="T_FF.vf"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="T_FF_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="Two_2_One_MUX.vf">
       <branch xil_pn:name="Implementation"/>
       <branch xil_pn:name="BehavioralSim"/>
@@ -114,54 +132,65 @@
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="not_gate.v"/>
     </transform>
-    <transform xil_pn:end_ts="1644067501" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-8278794708137568849" xil_pn:start_ts="1644067501">
+    <transform xil_pn:end_ts="1645292110" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-8263365461851008501" xil_pn:start_ts="1645292110">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1644067665" xil_pn:in_ck="8105969001455940642" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1522257950174490445" xil_pn:start_ts="1644067663">
+    <transform xil_pn:end_ts="1645292181" xil_pn:in_ck="2697560897664402625" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-856314931522595415" xil_pn:start_ts="1645292179">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="D_FF.vf"/>
+      <outfile xil_pn:name="Four_Bit_Down_Counter.vf"/>
       <outfile xil_pn:name="MOD_10_Counter.vf"/>
+      <outfile xil_pn:name="MOD_13_UP_COUNTER.vf"/>
+      <outfile xil_pn:name="MOD_6_DOWN_COUNTER.vf"/>
       <outfile xil_pn:name="Master_Slave.vf"/>
+      <outfile xil_pn:name="Master_Slave_posedge.vf"/>
       <outfile xil_pn:name="ODD_EVEN.vf"/>
+      <outfile xil_pn:name="PIPO.vf"/>
+      <outfile xil_pn:name="PISO.vf"/>
+      <outfile xil_pn:name="SIPO.vf"/>
+      <outfile xil_pn:name="SISO.vf"/>
+      <outfile xil_pn:name="T_FF.vf"/>
       <outfile xil_pn:name="Two_2_One_MUX.vf"/>
     </transform>
     <transform xil_pn:end_ts="1644067503" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-3703040648259592257" xil_pn:start_ts="1644067503">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1644067665" xil_pn:in_ck="-1744058022068233461" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1644067665">
+    <transform xil_pn:end_ts="1645292181" xil_pn:in_ck="199108204218475350" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1645292181">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="D_FF.vf"/>
+      <outfile xil_pn:name="Four_Bit_Down_Counter.vf"/>
       <outfile xil_pn:name="MOD_10_Counter.vf"/>
+      <outfile xil_pn:name="MOD_13_UP_COUNTER.vf"/>
+      <outfile xil_pn:name="MOD_6_DOWN_COUNTER.vf"/>
       <outfile xil_pn:name="Master_Slave.vf"/>
+      <outfile xil_pn:name="Master_Slave_posedge.vf"/>
       <outfile xil_pn:name="ODD_EVEN.vf"/>
+      <outfile xil_pn:name="PIPO.vf"/>
+      <outfile xil_pn:name="PISO.vf"/>
+      <outfile xil_pn:name="SIPO.vf"/>
+      <outfile xil_pn:name="SISO.vf"/>
+      <outfile xil_pn:name="T_FF.vf"/>
       <outfile xil_pn:name="Two_2_One_MUX.vf"/>
       <outfile xil_pn:name="not_gate.v"/>
     </transform>
-    <transform xil_pn:end_ts="1644067667" xil_pn:in_ck="-1744058022068233461" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4305823731717746164" xil_pn:start_ts="1644067665">
+    <transform xil_pn:end_ts="1645292184" xil_pn:in_ck="199108204218475350" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3435593047451228564" xil_pn:start_ts="1645292181">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="MOD_10_Counter_beh.prj"/>
-      <outfile xil_pn:name="MOD_10_Counter_isim_beh.exe"/>
+      <outfile xil_pn:name="PISO_beh.prj"/>
+      <outfile xil_pn:name="PISO_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1644067668" xil_pn:in_ck="-4068326912973516223" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3946625789893067767" xil_pn:start_ts="1644067667">
+    <transform xil_pn:end_ts="1645292185" xil_pn:in_ck="-1985242902539997595" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-4121637255601125585" xil_pn:start_ts="1645292184">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="MOD_10_Counter_isim_beh.wdb"/>
+      <outfile xil_pn:name="PISO_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>

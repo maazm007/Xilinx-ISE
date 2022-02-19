@@ -13,12 +13,9 @@
         <signal name="PS" />
         <signal name="Q" />
         <signal name="Qb" />
-        <signal name="XLXN_8" />
-        <signal name="XLXN_9" />
         <signal name="CLOCK" />
         <signal name="J" />
         <signal name="K" />
-        <signal name="XLXN_13" />
         <port polarity="Input" name="PS" />
         <port polarity="Output" name="Q" />
         <port polarity="Output" name="Qb" />

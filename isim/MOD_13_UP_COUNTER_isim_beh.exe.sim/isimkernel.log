@@ -1,0 +1,29 @@
+Command line:
+   MOD_13_UP_COUNTER_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58654
+
+Fri Feb 18 22:48:14 2022
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5150.16 Meg
+
+ Total Signals          : 258
+ Total Nets             : 78
+ Total Signal Drivers   : 68
+ Total Blocks           : 57
+ Total Primitive Blocks : 52
+ Total Processes        : 69
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 158
+Total Line Count : 27
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 4992.87 Meg
+
+Fri Feb 18 22:49:55 2022
+

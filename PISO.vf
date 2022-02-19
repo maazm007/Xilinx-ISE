@@ -1,0 +1,214 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : PISO.vf
+// /___/   /\     Timestamp : 02/19/2022 23:06:20
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family artix7 -verilog E:/Projects/Xilinx/Digital/PISO.vf -w E:/Projects/Xilinx/Digital/PISO.sch
+//Design Name: PISO
+//Device: artix7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Two_2_One_MUX_MUSER_PISO(D0, 
+                                D1, 
+                                RESET, 
+                                SELECT_INPUT, 
+                                Y);
+
+    input D0;
+    input D1;
+    input RESET;
+    input SELECT_INPUT;
+   output Y;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_6;
+   wire XLXN_9;
+   
+   AND2  XLXI_1 (.I0(D0), 
+                .I1(XLXN_6), 
+                .O(XLXN_1));
+   AND2  XLXI_2 (.I0(XLXN_9), 
+                .I1(D1), 
+                .O(XLXN_2));
+   AND2  XLXI_3 (.I0(RESET), 
+                .I1(XLXN_3), 
+                .O(Y));
+   AND2  XLXI_4 (.I0(SELECT_INPUT), 
+                .I1(RESET), 
+                .O(XLXN_9));
+   OR2  XLXI_5 (.I0(XLXN_2), 
+               .I1(XLXN_1), 
+               .O(XLXN_3));
+   INV  XLXI_6 (.I(XLXN_9), 
+               .O(XLXN_6));
+endmodule
+`timescale 1ns / 1ps
+
+module Master_Slave_MUSER_PISO(CLOCK, 
+                               J, 
+                               K, 
+                               PS, 
+                               Q, 
+                               Qb);
+
+    input CLOCK;
+    input J;
+    input K;
+    input PS;
+   output Q;
+   output Qb;
+   
+   wire XLXN_53;
+   wire XLXN_55;
+   wire XLXN_56;
+   wire XLXN_57;
+   wire XLXN_58;
+   wire XLXN_59;
+   wire XLXN_67;
+   wire XLXN_69;
+   wire XLXN_70;
+   wire XLXN_71;
+   wire Q_DUMMY;
+   wire Qb_DUMMY;
+   
+   assign Q = Q_DUMMY;
+   assign Qb = Qb_DUMMY;
+   NAND3  XLXI_1 (.I0(CLOCK), 
+                 .I1(J), 
+                 .I2(Qb_DUMMY), 
+                 .O(XLXN_67));
+   NAND3  XLXI_2 (.I0(Q_DUMMY), 
+                 .I1(K), 
+                 .I2(CLOCK), 
+                 .O(XLXN_69));
+   NAND3  XLXI_3 (.I0(XLXN_69), 
+                 .I1(PS), 
+                 .I2(XLXN_56), 
+                 .O(XLXN_58));
+   NAND2  XLXI_4 (.I0(XLXN_58), 
+                 .I1(XLXN_55), 
+                 .O(XLXN_56));
+   NAND2  XLXI_5 (.I0(XLXN_57), 
+                 .I1(XLXN_56), 
+                 .O(XLXN_71));
+   NAND2  XLXI_6 (.I0(XLXN_58), 
+                 .I1(XLXN_57), 
+                 .O(XLXN_59));
+   NAND2  XLXI_7 (.I0(Qb_DUMMY), 
+                 .I1(XLXN_70), 
+                 .O(Q_DUMMY));
+   NAND3  XLXI_8 (.I0(PS), 
+                 .I1(XLXN_59), 
+                 .I2(Q_DUMMY), 
+                 .O(Qb_DUMMY));
+   OR2  XLXI_9 (.I0(XLXN_67), 
+               .I1(XLXN_53), 
+               .O(XLXN_55));
+   OR2  XLXI_10 (.I0(XLXN_71), 
+                .I1(XLXN_53), 
+                .O(XLXN_70));
+   INV  XLXI_11 (.I(PS), 
+                .O(XLXN_53));
+   INV  XLXI_12 (.I(CLOCK), 
+                .O(XLXN_57));
+endmodule
+`timescale 1ns / 1ps
+
+module D_FF_MUSER_PISO(CLEAR, 
+                       CLOCK, 
+                       D, 
+                       Q);
+
+    input CLEAR;
+    input CLOCK;
+    input D;
+   output Q;
+   
+   wire XLXN_1;
+   
+   Master_Slave_MUSER_PISO  XLXI_1 (.CLOCK(CLOCK), 
+                                   .J(D), 
+                                   .K(XLXN_1), 
+                                   .PS(CLEAR), 
+                                   .Q(Q), 
+                                   .Qb());
+   INV  XLXI_2 (.I(D), 
+               .O(XLXN_1));
+endmodule
+`timescale 1ns / 1ps
+
+module PISO(CLEAR, 
+            CLOCK, 
+            D1, 
+            D2, 
+            D3, 
+            D4, 
+            S1, 
+            S2, 
+            S3, 
+            Output);
+
+    input CLEAR;
+    input CLOCK;
+    input D1;
+    input D2;
+    input D3;
+    input D4;
+    input S1;
+    input S2;
+    input S3;
+   output Output;
+   
+   wire Q1;
+   wire Q2;
+   wire Q3;
+   wire XLXN_33;
+   wire XLXN_34;
+   wire XLXN_36;
+   
+   D_FF_MUSER_PISO  XLXI_1 (.CLEAR(CLEAR), 
+                           .CLOCK(CLOCK), 
+                           .D(D1), 
+                           .Q(XLXN_33));
+   D_FF_MUSER_PISO  XLXI_2 (.CLEAR(CLEAR), 
+                           .CLOCK(CLOCK), 
+                           .D(Q1), 
+                           .Q(XLXN_34));
+   D_FF_MUSER_PISO  XLXI_3 (.CLEAR(CLEAR), 
+                           .CLOCK(CLOCK), 
+                           .D(Q2), 
+                           .Q(XLXN_36));
+   D_FF_MUSER_PISO  XLXI_4 (.CLEAR(CLEAR), 
+                           .CLOCK(CLOCK), 
+                           .D(Q3), 
+                           .Q(Output));
+   Two_2_One_MUX_MUSER_PISO  XLXI_5 (.D0(XLXN_33), 
+                                    .D1(D2), 
+                                    .RESET(CLEAR), 
+                                    .SELECT_INPUT(S1), 
+                                    .Y(Q1));
+   Two_2_One_MUX_MUSER_PISO  XLXI_6 (.D0(XLXN_34), 
+                                    .D1(D3), 
+                                    .RESET(CLEAR), 
+                                    .SELECT_INPUT(S2), 
+                                    .Y(Q2));
+   Two_2_One_MUX_MUSER_PISO  XLXI_7 (.D0(XLXN_36), 
+                                    .D1(D4), 
+                                    .RESET(CLEAR), 
+                                    .SELECT_INPUT(S3), 
+                                    .Y(Q3));
+endmodule
