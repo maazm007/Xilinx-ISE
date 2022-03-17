@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/Projects/Xilinx/Digital/PISO_isim_beh.exe" -prj "E:/Projects/Xilinx/Digital/PISO_beh.prj" "work.PISO" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/Projects/Xilinx/Digital/LED_Pattern_isim_beh.exe" -prj "E:/Projects/Xilinx/Digital/LED_Pattern_beh.prj" "work.LED_Pattern" "work.glbl" 

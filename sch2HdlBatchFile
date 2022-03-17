@@ -1,1 +1,3 @@
-sch2hdl,-intstyle,ise,-family,artix7,-verilog,E:/Projects/Xilinx/Digital/PISO.vf,-w,E:/Projects/Xilinx/Digital/PISO.sch
+sch2hdl,-intstyle,ise,-family,artix7,-verilog,E:/Projects/Xilinx/Digital/Master_Slave.vf,-w,E:/Projects/Xilinx/Digital/Master_Slave.sch
+sch2hdl,-intstyle,ise,-family,artix7,-verilog,E:/Projects/Xilinx/Digital/D_FF.vf,-w,E:/Projects/Xilinx/Digital/D_FF.sch
+sch2hdl,-intstyle,ise,-family,artix7,-verilog,E:/Projects/Xilinx/Digital/LED_Pattern.vf,-w,E:/Projects/Xilinx/Digital/LED_Pattern.sch

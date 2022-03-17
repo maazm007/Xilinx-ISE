@@ -1,0 +1,3 @@
+verilog isim_temp "DataFlow_T_FF.v"
+verilog isim_temp "Counter_DataFlow.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

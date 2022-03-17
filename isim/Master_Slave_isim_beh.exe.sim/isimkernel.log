@@ -1,0 +1,29 @@
+Command line:
+   Master_Slave_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57351
+
+Sun Feb 20 23:31:03 2022
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5149.65 Meg
+
+ Total Signals          : 69
+ Total Nets             : 31
+ Total Signal Drivers   : 19
+ Total Blocks           : 14
+ Total Primitive Blocks : 13
+ Total Processes        : 20
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 111
+Total Line Count : 16
+
+ Total Simulation Time: 0.3125 sec
+
+ Current Memory Usage: 4992.36 Meg
+
+Sun Feb 20 23:33:00 2022
+

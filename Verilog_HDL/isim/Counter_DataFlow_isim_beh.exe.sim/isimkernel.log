@@ -1,0 +1,29 @@
+Command line:
+   Counter_DataFlow_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56770
+
+Mon Mar 14 13:52:39 2022
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 5149.68 Meg
+
+ Total Signals          : 76
+ Total Nets             : 56
+ Total Signal Drivers   : 41
+ Total Blocks           : 6
+ Total Primitive Blocks : 5
+ Total Processes        : 42
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 136
+Total Line Count : 50
+
+ Total Simulation Time: 0.125 sec
+
+ Current Memory Usage: 4677.82 Meg
+
+Mon Mar 14 13:55:24 2022
+

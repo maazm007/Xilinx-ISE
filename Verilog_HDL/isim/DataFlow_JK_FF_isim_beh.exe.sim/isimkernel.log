@@ -1,0 +1,29 @@
+Command line:
+   DataFlow_JK_FF_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50419
+
+Thu Mar 17 13:32:50 2022
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 5150.2 Meg
+
+ Total Signals          : 26
+ Total Nets             : 26
+ Total Signal Drivers   : 14
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 15
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 106
+Total Line Count : 23
+
+ Total Simulation Time: 0.34375 sec
+
+ Current Memory Usage: 4992.91 Meg
+
+Thu Mar 17 13:34:27 2022
+

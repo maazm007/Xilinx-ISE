@@ -1,0 +1,29 @@
+Command line:
+   LED_Pattern_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49457
+
+Mon Mar 07 00:03:16 2022
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5149.63 Meg
+
+ Total Signals          : 535
+ Total Nets             : 139
+ Total Signal Drivers   : 131
+ Total Blocks           : 124
+ Total Primitive Blocks : 107
+ Total Processes        : 132
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 219
+Total Line Count : 34
+
+ Total Simulation Time: 0.125 sec
+
+ Current Memory Usage: 5464.2 Meg
+
+Mon Mar 07 00:03:55 2022
+

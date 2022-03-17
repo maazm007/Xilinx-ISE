@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/Projects/Xilinx/Verilog_HDL/DataFlow_JK_FF_isim_beh.exe" -prj "E:/Projects/Xilinx/Verilog_HDL/DataFlow_JK_FF_beh.prj" "work.DataFlow_JK_FF" "work.glbl" 
